@@ -1,0 +1,23 @@
+command_id: 7D2.7DA.221F05
+test_cases:
+- expected_values:
+    TOYOTA_COOL_T: 55
+  response: 7DA04621F055F
+- expected_values:
+    TOYOTA_COOL_T: 62
+  response: 7DA04621F0566
+- expected_values:
+    TOYOTA_COOL_T: 64
+  response: 7DA04621F0568
+- expected_values:
+    TOYOTA_COOL_T: 87
+  response: 7DA04621F057F
+- expected_values:
+    TOYOTA_COOL_T: 89
+  response: 7DA04621F0581
+- expected_values:
+    TOYOTA_COOL_T: 92
+  response: 7DA04621F0584
+- expected_values:
+    TOYOTA_COOL_T: 93
+  response: 7DA04621F0585
