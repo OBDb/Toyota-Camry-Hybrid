@@ -1,0 +1,26 @@
+command_id: 7D2.221F5B|fc=1
+test_cases:
+- expected_values:
+    TOYOTA_SOC: 38.82353
+  response: 7DA04621F5B63
+- expected_values:
+    TOYOTA_SOC: 39.21569
+  response: 7DA04621F5B64
+- expected_values:
+    TOYOTA_SOC: 41.96078
+  response: 7DA04621F5B6B
+- expected_values:
+    TOYOTA_SOC: 42.7451
+  response: 7DA04621F5B6D
+- expected_values:
+    TOYOTA_SOC: 43.52941
+  response: 7DA04621F5B6F
+- expected_values:
+    TOYOTA_SOC: 43.92157
+  response: 7DA04621F5B70
+- expected_values:
+    TOYOTA_SOC: 44.31373
+  response: 7DA04621F5B71
+- expected_values:
+    TOYOTA_SOC: 52.15686
+  response: 7DA04621F5B85

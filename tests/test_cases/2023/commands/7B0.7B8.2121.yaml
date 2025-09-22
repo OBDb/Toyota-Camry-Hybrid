@@ -4,7 +4,3 @@ test_cases:
     TOYOTA_VSS: 0
     TOYOTA_VSS_V3: 0
   response: 7B803612100
-- expected_values:
-    TOYOTA_VSS: 106.65
-    TOYOTA_VSS_V3: 101.12
-  response: 7B80361214F

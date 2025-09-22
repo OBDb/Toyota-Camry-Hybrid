@@ -1,0 +1,10 @@
+command_id: 7D2.7DA.221075
+test_cases:
+- expected_values:
+    TOYOTA_FL_WHEEL_VSS: 0
+    TOYOTA_FR_WHEEL_VSS: 0
+    TOYOTA_RL_WHEEL_VSS: 0
+    TOYOTA_RR_WHEEL_VSS: 0
+  response: |-
+    7DA100B621075800080
+    7DA2100800080000000
