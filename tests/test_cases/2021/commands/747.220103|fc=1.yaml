@@ -7,5 +7,8 @@ test_cases:
     TOYOTA_ODO_V6: 105978
   response: 74F0762010302019DFA
 - expected_values:
-    TOYOTA_ODO_V6: 106280
-  response: 74F0762010302019F28
+    TOYOTA_ODO_V6: 105999
+  response: 74F0762010302019E0F
+- expected_values:
+    TOYOTA_ODO_V6: 106275
+  response: 74F0762010302019F23
