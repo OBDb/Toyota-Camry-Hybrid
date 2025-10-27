@@ -1,4 +1,4 @@
-command_id: 7D2.7DA.221075
+command_id: 7D2.221075
 test_cases:
 - expected_values:
     TOYOTA_FL_WHEEL_VSS: 0

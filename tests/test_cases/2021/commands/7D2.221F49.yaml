@@ -1,4 +1,4 @@
-command_id: 7D2.7DA.221F49
+command_id: 7D2.221F49
 test_cases:
 - expected_values:
     TOYOTA_ACC_PEDAL_POS_1: 15.68627
