@@ -1,4 +1,4 @@
-command_id: 7D2.7DA.2210A1
+command_id: 7D2.2210A1
 test_cases:
 - expected_values:
     TOYOTA_RPM: 0
