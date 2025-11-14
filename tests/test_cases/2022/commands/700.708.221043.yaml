@@ -1,0 +1,10 @@
+command_id: 700.708.221043
+test_cases:
+- expected_values:
+    TOYOTA_EWP_RPM: 1000
+    TOYOTA_EWP_TARGET_VSS: 1025
+  response: '708056210432928'
+- expected_values:
+    TOYOTA_EWP_RPM: 4450
+    TOYOTA_EWP_TARGET_VSS: 4425
+  response: 70805621043B1B2

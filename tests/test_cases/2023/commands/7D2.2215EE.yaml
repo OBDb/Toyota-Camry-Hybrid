@@ -4,23 +4,8 @@ test_cases:
     TOYOTA_12V_V: 12.5917
   response: 7DA056215EE282C
 - expected_values:
-    TOYOTA_12V_V: 12.90618
-  response: 7DA056215EE2920
-- expected_values:
-    TOYOTA_12V_V: 13.84962
-  response: 7DA056215EE2C28
-- expected_values:
-    TOYOTA_12V_V: 13.84962
-  response: 7DA056215EE2C58
-- expected_values:
-    TOYOTA_12V_V: 13.84962
-  response: 7DA056215EE2CBE
-- expected_values:
-    TOYOTA_12V_V: 13.84962
-  response: 7DA056215EE2CCC
-- expected_values:
-    TOYOTA_12V_V: 13.84962
-  response: 7DA056215EE2CD2
-- expected_values:
     TOYOTA_12V_V: 14.1641
-  response: 7DA056215EE2D04
+  response: 7DA056215EE2DFE
+- expected_values:
+    TOYOTA_12V_V: 14.47858
+  response: 7DA056215EE2E00
