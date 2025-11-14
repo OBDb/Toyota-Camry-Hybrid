@@ -3,3 +3,27 @@ test_cases:
 - expected_values:
     TOYOTA_ACC_PEDAL_POS_2: 31.76471
   response: 7DA04621F4A51
+- expected_values:
+    TOYOTA_ACC_PEDAL_POS_2: 32.54902
+  response: 7DA04621F4A53
+- expected_values:
+    TOYOTA_ACC_PEDAL_POS_2: 34.11765
+  response: 7DA04621F4A57
+- expected_values:
+    TOYOTA_ACC_PEDAL_POS_2: 37.2549
+  response: 7DA04621F4A5F
+- expected_values:
+    TOYOTA_ACC_PEDAL_POS_2: 40
+  response: 7DA04621F4A66
+- expected_values:
+    TOYOTA_ACC_PEDAL_POS_2: 41.17647
+  response: 7DA04621F4A69
+- expected_values:
+    TOYOTA_ACC_PEDAL_POS_2: 42.7451
+  response: 7DA04621F4A6D
+- expected_values:
+    TOYOTA_ACC_PEDAL_POS_2: 46.66667
+  response: 7DA04621F4A77
+- expected_values:
+    TOYOTA_ACC_PEDAL_POS_2: 47.84314
+  response: 7DA04621F4A7A
