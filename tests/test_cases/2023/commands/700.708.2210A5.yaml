@@ -9,6 +9,11 @@ test_cases:
     TOYOTA_MISFIRE_CNT: 0
   response: |-
     70810086210A5000000
+    7082100DF0000000000
+- expected_values:
+    TOYOTA_MISFIRE_CNT: 0
+  response: |-
+    70810086210A5000000
     7082100E00000000000
 - expected_values:
     TOYOTA_MISFIRE_CNT: 0
@@ -23,5 +28,10 @@ test_cases:
 - expected_values:
     TOYOTA_MISFIRE_CNT: 0
   response: |-
-    70810086210A500014B
-    7082100FF0000000000
+    70810086210A5000113
+    7082100DB0000000000
+- expected_values:
+    TOYOTA_MISFIRE_CNT: 1
+  response: |-
+    70810086210A50100C0
+    70821006E0000000000

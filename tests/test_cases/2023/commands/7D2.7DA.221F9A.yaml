@@ -37,6 +37,12 @@ test_cases:
     7DA1009621F9A0E0041
     7DA2100FF8B00000000
 - expected_values:
+    TOYOTA_HVBAT_C: -2.9
+    TOYOTA_HVBAT_V: 266
+  response: |-
+    7DA1009621F9A0E0042
+    7DA2180FFE300000000
+- expected_values:
     TOYOTA_HVBAT_C: -10.7
     TOYOTA_HVBAT_V: 278
   response: |-
