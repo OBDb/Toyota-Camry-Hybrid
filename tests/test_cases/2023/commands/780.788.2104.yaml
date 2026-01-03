@@ -4,5 +4,8 @@ test_cases:
     TOYOTA_BUCKLE_RS: 1
   response: '78806610402030101'
 - expected_values:
+    TOYOTA_BUCKLE_RS: 2
+  response: '78806610402030102'
+- expected_values:
     TOYOTA_BUCKLE_RS: 1
   response: '78806610402050101'

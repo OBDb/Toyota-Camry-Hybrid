@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     TOYOTA_SOLAR_DRIVER: 0
   response: 7CC03612400
+- expected_values:
+    TOYOTA_SOLAR_DRIVER: 16
+  response: 7CC03612410
+- expected_values:
+    TOYOTA_SOLAR_DRIVER: 17
+  response: 7CC03612411
+- expected_values:
+    TOYOTA_SOLAR_DRIVER: 18
+  response: 7CC03612412
+- expected_values:
+    TOYOTA_SOLAR_DRIVER: 19
+  response: 7CC03612413
