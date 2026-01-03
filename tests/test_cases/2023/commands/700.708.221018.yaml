@@ -1,0 +1,14 @@
+command_id: 700.708.221018
+test_cases:
+- expected_values:
+    TOYOTA_INJECTOR_PORT: 0
+  response: '708056210180000'
+- expected_values:
+    TOYOTA_INJECTOR_PORT: 4.245
+  response: '708056210181095'
+- expected_values:
+    TOYOTA_INJECTOR_PORT: 4.453
+  response: '708056210181165'
+- expected_values:
+    TOYOTA_INJECTOR_PORT: 4.48
+  response: '708056210181180'
