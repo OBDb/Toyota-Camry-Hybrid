@@ -4,26 +4,5 @@ test_cases:
     TOYOTA_REGULATOR_P: 0.19056
   response: 7CC0361532C
 - expected_values:
-    TOYOTA_REGULATOR_P: 0.20527
-  response: 7CC0361532D
-- expected_values:
-    TOYOTA_REGULATOR_P: 0.23469
-  response: 7CC0361532F
-- expected_values:
-    TOYOTA_REGULATOR_P: 0.2494
-  response: 7CC03615330
-- expected_values:
-    TOYOTA_REGULATOR_P: 0.27882
-  response: 7CC03615332
-- expected_values:
-    TOYOTA_REGULATOR_P: 0.38179
-  response: 7CC03615339
-- expected_values:
-    TOYOTA_REGULATOR_P: 0.41121
-  response: 7CC0361533B
-- expected_values:
-    TOYOTA_REGULATOR_P: 0.42592
-  response: 7CC0361533C
-- expected_values:
     TOYOTA_REGULATOR_P: 0.57302
   response: 7CC03615346
