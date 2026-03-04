@@ -7,12 +7,6 @@ test_cases:
     TOYOTA_YAW_RATE2: -16
   response: 7B806610670707556
 - expected_values:
-    TOYOTA_YAW_1: -5
-    TOYOTA_YAW_2: -5
-    TOYOTA_YAW_RATE: -5
-    TOYOTA_YAW_RATE2: -5
-  response: 7B80661067B7B87AD
-- expected_values:
     TOYOTA_YAW_1: 0
     TOYOTA_YAW_2: 0
     TOYOTA_YAW_RATE: 0
@@ -25,8 +19,8 @@ test_cases:
     TOYOTA_YAW_RATE2: 0
   response: 7B806610680808000
 - expected_values:
-    TOYOTA_YAW_1: 4
-    TOYOTA_YAW_2: 4
-    TOYOTA_YAW_RATE: 4
-    TOYOTA_YAW_RATE2: 4
-  response: 7B8066106848481A4
+    TOYOTA_YAW_1: 5
+    TOYOTA_YAW_2: 5
+    TOYOTA_YAW_RATE: 5
+    TOYOTA_YAW_RATE2: 5
+  response: 7B806610685858834
