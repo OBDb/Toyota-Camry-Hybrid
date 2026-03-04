@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     TOYOTA_EVAP_TARGET_T: 1
   response: 7CC04614C8064
+- expected_values:
+    TOYOTA_EVAP_TARGET_T: 1.24
+  response: 7CC04614C807C
+- expected_values:
+    TOYOTA_EVAP_TARGET_T: 1.67
+  response: 7CC04614C80A7
+- expected_values:
+    TOYOTA_EVAP_TARGET_T: 1.95
+  response: 7CC04614C80C3
