@@ -1,0 +1,14 @@
+command_id: 7B0.7B8.2148
+test_cases:
+- expected_values:
+    TOYOTA_FR_REGEN_OPERATION: 0
+    TOYOTA_FR_REGEN_REQUEST: 0
+  response: 7B806614800000000
+- expected_values:
+    TOYOTA_FR_REGEN_OPERATION: 5
+    TOYOTA_FR_REGEN_REQUEST: 5
+  response: 7B806614800050005
+- expected_values:
+    TOYOTA_FR_REGEN_OPERATION: 13
+    TOYOTA_FR_REGEN_REQUEST: 12
+  response: 7B8066148000C000D
