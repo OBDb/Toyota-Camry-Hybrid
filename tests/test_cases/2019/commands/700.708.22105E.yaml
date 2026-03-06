@@ -1,0 +1,17 @@
+command_id: 700.708.22105E
+test_cases:
+- expected_values:
+    TOYOTA_ECU_INTERNAL_T: 37
+  response: 7080462105E4D
+- expected_values:
+    TOYOTA_ECU_INTERNAL_T: 38
+  response: 7080462105E4E
+- expected_values:
+    TOYOTA_ECU_INTERNAL_T: 39
+  response: 7080462105E4F
+- expected_values:
+    TOYOTA_ECU_INTERNAL_T: 41
+  response: '7080462105E51'
+- expected_values:
+    TOYOTA_ECU_INTERNAL_T: 42
+  response: '7080462105E52'

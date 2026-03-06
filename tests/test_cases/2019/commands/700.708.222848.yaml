@@ -1,0 +1,17 @@
+command_id: 700.708.222848
+test_cases:
+- expected_values:
+    TOYOTA_EOP_CONTROL_VALVE: 99.94501
+  response: 70805622848051E
+- expected_values:
+    TOYOTA_EOP_CONTROL_VALVE: 581.13064
+  response: 708056228481DC1
+- expected_values:
+    TOYOTA_EOP_CONTROL_VALVE: 583.64834
+  response: 708056228481DE2
+- expected_values:
+    TOYOTA_EOP_CONTROL_VALVE: 591.20143
+  response: '708056228481E45'
+- expected_values:
+    TOYOTA_EOP_CONTROL_VALVE: 697.24995
+  response: 7080562284823B3
