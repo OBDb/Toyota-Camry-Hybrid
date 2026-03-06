@@ -1,0 +1,14 @@
+command_id: 7D2.7DA.221F4A
+test_cases:
+- expected_values:
+    TOYOTA_ACC_PEDAL_POS_2: 31.76471
+  response: 7DA04621F4A51
+- expected_values:
+    TOYOTA_ACC_PEDAL_POS_2: 38.43137
+  response: 7DA04621F4A62
+- expected_values:
+    TOYOTA_ACC_PEDAL_POS_2: 40.39216
+  response: 7DA04621F4A67
+- expected_values:
+    TOYOTA_ACC_PEDAL_POS_2: 46.27451
+  response: 7DA04621F4A76
