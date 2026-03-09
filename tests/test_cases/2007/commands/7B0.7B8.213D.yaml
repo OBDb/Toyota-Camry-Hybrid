@@ -1,0 +1,16 @@
+command_id: 7B0.7B8.213D
+test_cases:
+- expected_values:
+    TOYOTA_ABS_WARN: 0
+    TOYOTA_BRAKE_WARN: 0
+    TOYOTA_BUZZER: 0
+    TOYOTA_ECB_WARN: 0
+    TOYOTA_SLIP_WARN: 0
+  response: 7B803613D0000000000
+- expected_values:
+    TOYOTA_ABS_WARN: 1
+    TOYOTA_BRAKE_WARN: 1
+    TOYOTA_BUZZER: 0
+    TOYOTA_ECB_WARN: 1
+    TOYOTA_SLIP_WARN: 1
+  response: 7B803613DE600000000

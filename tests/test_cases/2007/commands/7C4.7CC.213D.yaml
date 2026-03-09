@@ -1,0 +1,13 @@
+command_id: 7C4.7CC.213D
+test_cases:
+- expected_values:
+    TOYOTA_ADJUSTED_AMBIENT_T: 25.52
+  response: |-
+    > 700.708.221017
+    NO DATA
+    > 701.709.221628
+    NO DATA
+    > 6F1.22DA2E|e=18,fc=1
+    NO DATA
+    > 7C4.7CC.213D
+    7CC03613DB000000000
