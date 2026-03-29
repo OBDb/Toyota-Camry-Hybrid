@@ -5,6 +5,18 @@ test_cases:
     TOYOTA_EWP_TARGET_VSS: 0
   response: '708056210430006'
 - expected_values:
+    TOYOTA_EWP_RPM: 875
+    TOYOTA_EWP_TARGET_VSS: 675
+  response: 708056210431B23
+- expected_values:
+    TOYOTA_EWP_RPM: 1025
+    TOYOTA_EWP_TARGET_VSS: 1050
+  response: 708056210432A29
+- expected_values:
+    TOYOTA_EWP_RPM: 1000
+    TOYOTA_EWP_TARGET_VSS: 1325
+  response: '708056210433528'
+- expected_values:
     TOYOTA_EWP_RPM: 1925
     TOYOTA_EWP_TARGET_VSS: 1925
   response: 708056210434D4D
@@ -13,6 +25,10 @@ test_cases:
     TOYOTA_EWP_TARGET_VSS: 2200
   response: '708056210435858'
 - expected_values:
+    TOYOTA_EWP_RPM: 2375
+    TOYOTA_EWP_TARGET_VSS: 2350
+  response: 708056210435E5F
+- expected_values:
     TOYOTA_EWP_RPM: 2400
     TOYOTA_EWP_TARGET_VSS: 2400
   response: '708056210436060'
@@ -20,3 +36,7 @@ test_cases:
     TOYOTA_EWP_RPM: 3375
     TOYOTA_EWP_TARGET_VSS: 3375
   response: '708056210438787'
+- expected_values:
+    TOYOTA_EWP_RPM: 3975
+    TOYOTA_EWP_TARGET_VSS: 3875
+  response: 708056210439B9F

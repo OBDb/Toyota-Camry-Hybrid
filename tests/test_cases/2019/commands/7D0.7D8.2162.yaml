@@ -3,23 +3,7 @@ test_cases:
 - expected_values:
     TOYOTA_PARKING_BRAKE: 'OFF'
     TOYOTA_PARKING_BRAKE_2: 1
-  response: 7D8056162010500
-- expected_values:
-    TOYOTA_PARKING_BRAKE: 'OFF'
-    TOYOTA_PARKING_BRAKE_2: 1
-  response: 7D8056162010B00
-- expected_values:
-    TOYOTA_PARKING_BRAKE: 'OFF'
-    TOYOTA_PARKING_BRAKE_2: 1
-  response: 7D8056162011300
-- expected_values:
-    TOYOTA_PARKING_BRAKE: 'OFF'
-    TOYOTA_PARKING_BRAKE_2: 1
-  response: 7D8056162011400
-- expected_values:
-    TOYOTA_PARKING_BRAKE: 'OFF'
-    TOYOTA_PARKING_BRAKE_2: 1
-  response: 7D8056162014100
+  response: 7D8056162010300
 - expected_values:
     TOYOTA_PARKING_BRAKE: 'OFF'
     TOYOTA_PARKING_BRAKE_2: 1

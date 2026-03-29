@@ -1,0 +1,14 @@
+command_id: 7B0.7B8.2107
+test_cases:
+- expected_values:
+    TOYOTA_WHEEL_CYLINDER_PRESSURE: 0.4902
+  response: 7B803610719
+- expected_values:
+    TOYOTA_WHEEL_CYLINDER_PRESSURE: 0.64706
+  response: 7B803610721
+- expected_values:
+    TOYOTA_WHEEL_CYLINDER_PRESSURE: 0.80392
+  response: 7B803610729
+- expected_values:
+    TOYOTA_WHEEL_CYLINDER_PRESSURE: 0.94118
+  response: 7B803610730
