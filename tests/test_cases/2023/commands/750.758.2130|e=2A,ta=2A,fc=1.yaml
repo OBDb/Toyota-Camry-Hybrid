@@ -17,6 +17,12 @@ test_cases:
     7582A1007613000A19F
     7582A21000000000000
 - expected_values:
+    TOYOTA_TIRE_P_FR: 2.32759
+    TOYOTA_TP_FR: 2.32759
+  response: |-
+    7582A1007613000A400
+    7582A21000000000000
+- expected_values:
     TOYOTA_TIRE_P_FL: 2.17241
     TOYOTA_TIRE_P_FR: 2.25862
     TOYOTA_TIRE_P_RL: 2.2069
@@ -28,12 +34,6 @@ test_cases:
   response: |-
     7582A100761309BA09D
     7582A219F0000000000
-- expected_values:
-    TOYOTA_TIRE_P_FL: 2.18966
-    TOYOTA_TP_FL: 2.18966
-  response: |-
-    7582A100761309C0000
-    7582A21000000000000
 - expected_values:
     TOYOTA_TIRE_P_FL: 2.46552
     TOYOTA_TIRE_P_FR: 2.55172
