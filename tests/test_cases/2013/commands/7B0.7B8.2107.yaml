@@ -4,6 +4,9 @@ test_cases:
     TOYOTA_WHEEL_CYLINDER_PRESSURE: 0.4902
   response: 7B803610719
 - expected_values:
+    TOYOTA_WHEEL_CYLINDER_PRESSURE: 0.5098
+  response: 7B80361071A
+- expected_values:
     TOYOTA_WHEEL_CYLINDER_PRESSURE: 0.64706
   response: 7B803610721
 - expected_values:
@@ -12,3 +15,9 @@ test_cases:
 - expected_values:
     TOYOTA_WHEEL_CYLINDER_PRESSURE: 0.94118
   response: 7B803610730
+- expected_values:
+    TOYOTA_WHEEL_CYLINDER_PRESSURE: 0.98039
+  response: 7B803610732
+- expected_values:
+    TOYOTA_WHEEL_CYLINDER_PRESSURE: 1.13725
+  response: 7B80361073A
