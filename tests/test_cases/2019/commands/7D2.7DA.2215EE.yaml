@@ -5,7 +5,7 @@ test_cases:
   response: 7DA056215EE2908
 - expected_values:
     TOYOTA_12V_V_V2: 14.1641
-  response: 7DA056215EE2DC6
+  response: 7DA056215EE2DEE
 - expected_values:
     TOYOTA_12V_V_V2: 14.47858
   response: 7DA056215EE2E2C
