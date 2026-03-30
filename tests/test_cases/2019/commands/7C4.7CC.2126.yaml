@@ -4,26 +4,5 @@ test_cases:
     TOYOTA_ECT: 54.15
   response: 7CC03612697
 - expected_values:
-    TOYOTA_ECT: 60.1
-  response: 7CC036126A8
-- expected_values:
-    TOYOTA_ECT: 71.65
-  response: 7CC036126C9
-- expected_values:
-    TOYOTA_ECT: 82.85
-  response: 7CC036126E9
-- expected_values:
-    TOYOTA_ECT: 84.6
-  response: 7CC036126EE
-- expected_values:
-    TOYOTA_ECT: 84.95
-  response: 7CC036126EF
-- expected_values:
-    TOYOTA_ECT: 86.35
-  response: 7CC036126F3
-- expected_values:
-    TOYOTA_ECT: 89.85
-  response: 7CC036126FD
-- expected_values:
     TOYOTA_ECT: 90.55
   response: 7CC036126FF

@@ -1,6 +1,12 @@
 command_id: 7C4.7CC.213D
 test_cases:
 - expected_values:
+    TOYOTA_ADJUSTED_AMBIENT_T: 21.36
+  response: 7CC03613DA3
+- expected_values:
+    TOYOTA_ADJUSTED_AMBIENT_T: 21.68
+  response: 7CC03613DA4
+- expected_values:
     TOYOTA_ADJUSTED_AMBIENT_T: 23.28
   response: 7CC03613DA9
 - expected_values:
