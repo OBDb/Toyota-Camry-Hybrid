@@ -4,23 +4,5 @@ test_cases:
     TOYOTA_BLOWER_MOTOR_SPEED_LEVEL: 0
   response: 7CC03613C00
 - expected_values:
-    TOYOTA_BLOWER_MOTOR_SPEED_LEVEL: 2
-  response: 7CC03613C02
-- expected_values:
-    TOYOTA_BLOWER_MOTOR_SPEED_LEVEL: 4
-  response: 7CC03613C04
-- expected_values:
-    TOYOTA_BLOWER_MOTOR_SPEED_LEVEL: 5
-  response: 7CC03613C05
-- expected_values:
-    TOYOTA_BLOWER_MOTOR_SPEED_LEVEL: 6
-  response: 7CC03613C06
-- expected_values:
-    TOYOTA_BLOWER_MOTOR_SPEED_LEVEL: 7
-  response: 7CC03613C07
-- expected_values:
-    TOYOTA_BLOWER_MOTOR_SPEED_LEVEL: 8
-  response: 7CC03613C08
-- expected_values:
-    TOYOTA_BLOWER_MOTOR_SPEED_LEVEL: 10
-  response: 7CC03613C0A
+    TOYOTA_BLOWER_MOTOR_SPEED_LEVEL: 18
+  response: 7CC03613C12
