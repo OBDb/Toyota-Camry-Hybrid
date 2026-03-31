@@ -1,6 +1,9 @@
 command_id: 7D2.7DA.221F46
 test_cases:
 - expected_values:
+    TOYOTA_AAT_V2: 18
+  response: 7DA04621F463A
+- expected_values:
     TOYOTA_AAT_V2: 21
   response: 7DA04621F463D
 - expected_values:
