@@ -10,5 +10,5 @@ test_cases:
     TOYOTA_EVAP_TARGET_T: 5.18
   response: 7CC04614C8206
 - expected_values:
-    TOYOTA_EVAP_TARGET_T: 10
-  response: 7CC04614C83E8
+    TOYOTA_EVAP_TARGET_T: 8.16
+  response: 7CC04614C8330
