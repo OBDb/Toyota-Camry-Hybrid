@@ -8,25 +8,7 @@ test_cases:
   response: 7080762101902458A8C
 - expected_values:
     TOYOTA_INJECTION: BOTH
-  response: 7080762101902618AF0
-- expected_values:
-    TOYOTA_INJECTION: BOTH
-  response: 7080762101902708A8C
-- expected_values:
-    TOYOTA_INJECTION: BOTH
-  response: '7080762101902788000'
-- expected_values:
-    TOYOTA_INJECTION: BOTH
-  response: '70807621019029E8000'
-- expected_values:
-    TOYOTA_INJECTION: BOTH
-  response: 7080762101902B78000
-- expected_values:
-    TOYOTA_INJECTION: BOTH
-  response: 7080762101902BD8A8C
-- expected_values:
-    TOYOTA_INJECTION: BOTH
-  response: 7080762101902EE8000
+  response: '7080762101902558000'
 - expected_values:
     TOYOTA_INJECTION: BOTH
   response: 7080762101902F58BB8
