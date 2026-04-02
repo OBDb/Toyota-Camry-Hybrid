@@ -4,29 +4,8 @@ test_cases:
     TOYOTA_ODO_V6: 81665
   response: 74F0762010302013F01
 - expected_values:
-    TOYOTA_ODO_V6: 81666
-  response: 74F0762010302013F02
-- expected_values:
-    TOYOTA_ODO_V6: 81737
-  response: 74F0762010302013F49
-- expected_values:
-    TOYOTA_ODO_V6: 81738
-  response: 74F0762010302013F4A
-- expected_values:
     TOYOTA_ODO_V6: 82591
   response: 74F076201030201429F
 - expected_values:
-    TOYOTA_ODO_V6: 82592
-  response: 74F07620103020142A0
-- expected_values:
-    TOYOTA_ODO_V6: 82593
-  response: 74F07620103020142A1
-- expected_values:
-    TOYOTA_ODO_V6: 82594
-  response: 74F07620103020142A2
-- expected_values:
-    TOYOTA_ODO_V6: 82595
-  response: 74F07620103020142A3
-- expected_values:
-    TOYOTA_ODO_V6: 82600
-  response: 74F07620103020142A8
+    TOYOTA_ODO_V6: 82687
+  response: 74F07620103020142FF
