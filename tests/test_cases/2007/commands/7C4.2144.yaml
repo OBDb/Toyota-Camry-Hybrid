@@ -1,0 +1,5 @@
+command_id: 7C4.2144
+test_cases:
+- expected_values:
+    TOYOTA_AIR_INLET_DAMPER_TARGET_PULSE: 7
+  response: 7CC03614407
