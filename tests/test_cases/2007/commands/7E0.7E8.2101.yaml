@@ -1,0 +1,6 @@
+command_id: 7E0.7E8.2101
+test_cases:
+- expected_values:
+    TOYOTA_CALCULATED_LOAD_7E0: 0
+    TOYOTA_VEHICLE_LOAD: 2.79088
+  response: '7E806610100072500'
