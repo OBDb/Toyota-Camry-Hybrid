@@ -51,6 +51,10 @@ supported_commands_by_ecu:
   - 0146:AAT
   - 0147:TP_B
   - 014C:TAC_PCT
+  "7E2":
+  - 7E2.7EA.0131
+  "7E3":
+  - 7E3.7EB.0104
 unsupported_commands_by_ecu:
   "6F1":
   - 6F1.221700|e=40,fc=1:TOYOTA_ODO_V3
@@ -223,8 +227,10 @@ unsupported_commands_by_ecu:
   "7E0":
   - 7E0.0103:FUELSYS1,FUELSYS2
   - 7E0.0104:LOAD_PCT
+  - 7E0.0105:ECT
   - 7E0.0106:SHRTFT1
   - 7E0.011C:OBDSUP
+  - 7E0.011F:RUNTM
   - 7E0.012F:FLI
   - 7E0.0131:CLR_DIST
   - 7E0.0134:LAMBDA11_CURRENT,O2S11_CURRENT
@@ -251,13 +257,13 @@ unsupported_commands_by_ecu:
   - 7E0.7E8.21DA:TOYOTA_GEAR_V3
   "7E2":
   - 7E2.7EA.0104
-  - 7E2.7EA.0131
+  - 7E2.7EA.0105
   - 7E2.7EA.0142
   - 7E2.7EA.0146
   - 7E2.7EA.015B
   - 7E2.7EA.019A
   "7E3":
-  - 7E3.7EB.0104
+  - 7E3.7EB.0105
   - 7E3.7EB.0131
   - 7E3.7EB.0142
   - 7E3.7EB.0146
@@ -266,6 +272,7 @@ unsupported_commands_by_ecu:
   - 7E3.7EB.01D2
   "7E6":
   - 7E6.7EE.0104
+  - 7E6.7EE.0105
   - 7E6.7EE.0131
   - 7E6.7EE.0142
   - 7E6.7EE.0146
