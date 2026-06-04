@@ -4,6 +4,7 @@ supported_commands_by_ecu:
   - 7DF.0103
   - 7DF.0104
   - 7DF.0106
+  - 7DF.0111
   - 7DF.011C
   - 7DF.012F
   - 7DF.0131
@@ -12,6 +13,7 @@ supported_commands_by_ecu:
   - 7DF.0144
   - 7DF.0146
   - 7DF.015B
+  - 7DF.015C
   - 7DF.015E
   - 7DF.016D
   - 7DF.019A
@@ -51,6 +53,9 @@ supported_commands_by_ecu:
   - 0146:AAT
   - 0147:TP_B
   - 014C:TAC_PCT
+  - 7E0.0106:SHRTFT1
+  - 7E0.0131:CLR_DIST
+  - 7E0.0134:LAMBDA11_CURRENT,O2S11_CURRENT
   "7E2":
   - 7E2.7EA.0131
   "7E3":
@@ -228,15 +233,14 @@ unsupported_commands_by_ecu:
   - 7E0.0103:FUELSYS1,FUELSYS2
   - 7E0.0104:LOAD_PCT
   - 7E0.0105:ECT
-  - 7E0.0106:SHRTFT1
+  - 7E0.0111:TP
   - 7E0.011C:OBDSUP
   - 7E0.011F:RUNTM
   - 7E0.012F:FLI
-  - 7E0.0131:CLR_DIST
-  - 7E0.0134:LAMBDA11_CURRENT,O2S11_CURRENT
   - 7E0.0142:VPWR
   - 7E0.0144:EQ_RAT
   - 7E0.0146:AAT
+  - 7E0.015C:EOT
   - 7E0.015E:FUEL_RATE
   - 7E0.016D:FRP_A,FRP_A_CMD,FRP_A_CMD_SUP,FRP_A_SUP,FRP_B,FRP_B_CMD,FRP_B_CMD_SUP,FRP_B_SUP,FRT_A,FRT_A_SUP,FRT_B,FRT_B_SUP
   - 7E0.019D:FUEL_RATE_ALT,VFUEL_RATE
@@ -258,12 +262,14 @@ unsupported_commands_by_ecu:
   "7E2":
   - 7E2.7EA.0104
   - 7E2.7EA.0105
+  - 7E2.7EA.0111
   - 7E2.7EA.0142
   - 7E2.7EA.0146
   - 7E2.7EA.015B
   - 7E2.7EA.019A
   "7E3":
   - 7E3.7EB.0105
+  - 7E3.7EB.0111
   - 7E3.7EB.0131
   - 7E3.7EB.0142
   - 7E3.7EB.0146
@@ -273,6 +279,7 @@ unsupported_commands_by_ecu:
   "7E6":
   - 7E6.7EE.0104
   - 7E6.7EE.0105
+  - 7E6.7EE.0111
   - 7E6.7EE.0131
   - 7E6.7EE.0142
   - 7E6.7EE.0146
