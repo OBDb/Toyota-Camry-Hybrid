@@ -7,8 +7,8 @@ test_cases:
     TOYOTA_CAT_T_12: 62.5
   response: 70805621F3E0401
 - expected_values:
-    TOYOTA_CAT_T_12: 420.6
-  response: 70805621F3E11FE
+    TOYOTA_CAT_T_12: 343.8
+  response: 70805621F3E0EFE
 - expected_values:
     TOYOTA_CAT_T_12: 529.3
   response: 70805621F3E163D
