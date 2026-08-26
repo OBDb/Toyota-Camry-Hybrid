@@ -148,6 +148,8 @@ supported_commands_by_ecu:
   - 0145:TP_R
   - 0146:AAT
   - 0147:TP_B
+  "7E6":
+  - 7E6.7EE.0104
 unsupported_commands_by_ecu:
   "6F1":
   - 6F1.221700|e=40,fc=1:TOYOTA_ODO_V3
@@ -288,7 +290,6 @@ unsupported_commands_by_ecu:
   - 7E5.7ED.0131
   - 7E5.7ED.0142
   "7E6":
-  - 7E6.7EE.0104
   - 7E6.7EE.0105
   - 7E6.7EE.010D
   - 7E6.7EE.0111
