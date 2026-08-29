@@ -1,8 +1,8 @@
 command_id: 700.708.22108D
 test_cases:
 - expected_values:
-    TOYOTA_INTAKE_VVT_OVER_RET_LEARN_B1: 27.14843
-  response: 7080562108D0ADC
+    TOYOTA_INTAKE_VVT_OVER_RET_LEARN_B1: 27.1289
+  response: 7080562108D0ADA
 - expected_values:
     TOYOTA_INTAKE_VVT_OVER_RET_LEARN_B1: 27.37304
   response: 7080562108D0AF3
