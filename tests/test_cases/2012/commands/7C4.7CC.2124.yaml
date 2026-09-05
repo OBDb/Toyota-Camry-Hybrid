@@ -1,0 +1,14 @@
+command_id: 7C4.7CC.2124
+test_cases:
+- expected_values:
+    TOYOTA_SOLAR_DRIVER: 127
+  response: 7CC0361247F
+- expected_values:
+    TOYOTA_SOLAR_DRIVER: 128
+  response: 7CC03612480
+- expected_values:
+    TOYOTA_SOLAR_DRIVER: 129
+  response: 7CC03612481
+- expected_values:
+    TOYOTA_SOLAR_DRIVER: 131
+  response: 7CC03612483
