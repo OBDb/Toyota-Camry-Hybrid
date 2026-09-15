@@ -4,5 +4,5 @@ test_cases:
     TOYOTA_EOT_V2: 8
   response: 70804621F5C30
 - expected_values:
-    TOYOTA_EOT_V2: 87
-  response: 70804621F5C7F
+    TOYOTA_EOT_V2: 96
+  response: 70804621F5C88
