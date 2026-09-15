@@ -4,5 +4,5 @@ test_cases:
     TOYOTA_COOL_T: 30
   response: 7DA04621F0546
 - expected_values:
-    TOYOTA_COOL_T: 93
-  response: 7DA04621F0585
+    TOYOTA_COOL_T: 94
+  response: 7DA04621F0586
