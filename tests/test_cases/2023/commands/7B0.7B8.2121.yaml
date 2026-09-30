@@ -1,12 +1,8 @@
 command_id: 7B0.7B8.2121
 test_cases:
 - expected_values:
-    TOYOTA_VEHICLE_SPEED_7B0: 0
-    TOYOTA_VSS: 0
-    TOYOTA_VSS_V3: 0
+    CAMRY_HYBRID_VEHICLE_SPEED_7B0: 0
   response: 7B803612100
 - expected_values:
-    TOYOTA_VEHICLE_SPEED_7B0: 145.92
-    TOYOTA_VSS: 153.9
-    TOYOTA_VSS_V3: 145.92
+    CAMRY_HYBRID_VEHICLE_SPEED_7B0: 145.92
   response: 7B803612172
