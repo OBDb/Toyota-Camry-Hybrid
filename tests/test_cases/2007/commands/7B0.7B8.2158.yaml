@@ -1,5 +1,5 @@
 command_id: 7B0.7B8.2158
 test_cases:
 - expected_values:
-    CAMRY_HYBRID_REGEN_COOPERATION: 0
+    CAMRYH_REGEN_COOPERATION: 0
   response: 7B803615800

@@ -1,5 +1,5 @@
 command_id: 7C0.7C8.2141
 test_cases:
 - expected_values:
-    CAMRY_HYBRID_OIL_CHANGE_ODO: 2735.8848
+    CAMRYH_OIL_CHANGE_ODO: 2735.8848
   response: 7C803614111

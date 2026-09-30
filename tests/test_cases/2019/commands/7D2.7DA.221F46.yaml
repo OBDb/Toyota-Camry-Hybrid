@@ -1,29 +1,29 @@
 command_id: 7D2.7DA.221F46
 test_cases:
 - expected_values:
-    CAMRY_HYBRID_AAT: 16
+    CAMRYH_AAT: 16
   response: 7DA04621F4638
 - expected_values:
-    CAMRY_HYBRID_AAT: 17
+    CAMRYH_AAT: 17
   response: 7DA04621F4639
 - expected_values:
-    CAMRY_HYBRID_AAT: 18
+    CAMRYH_AAT: 18
   response: 7DA04621F463A
 - expected_values:
-    CAMRY_HYBRID_AAT: 21
+    CAMRYH_AAT: 21
   response: 7DA04621F463D
 - expected_values:
-    CAMRY_HYBRID_AAT: 22
+    CAMRYH_AAT: 22
   response: 7DA04621F463E
 - expected_values:
-    CAMRY_HYBRID_AAT: 23
+    CAMRYH_AAT: 23
   response: 7DA04621F463F
 - expected_values:
-    CAMRY_HYBRID_AAT: 24
+    CAMRYH_AAT: 24
   response: 7DA04621F4640
 - expected_values:
-    CAMRY_HYBRID_AAT: 25
+    CAMRYH_AAT: 25
   response: 7DA04621F4641
 - expected_values:
-    CAMRY_HYBRID_AAT: 26
+    CAMRYH_AAT: 26
   response: 7DA04621F4642

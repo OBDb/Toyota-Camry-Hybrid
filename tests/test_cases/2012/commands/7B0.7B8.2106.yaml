@@ -1,6 +1,6 @@
 command_id: 7B0.7B8.2106
 test_cases:
 - expected_values:
-    CAMRY_HYBRID_YAW_1: 0
-    CAMRY_HYBRID_YAW_2: 0
+    CAMRYH_YAW_1: 0
+    CAMRYH_YAW_2: 0
   response: 7B806610680807E7A

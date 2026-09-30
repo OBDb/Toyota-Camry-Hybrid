@@ -1,5 +1,5 @@
 command_id: 7C0.7C8.2129
 test_cases:
 - expected_values:
-    CAMRY_HYBRID_FUEL_INPUT: 113
+    CAMRYH_FUEL_INPUT: 113
   response: 7C803612971

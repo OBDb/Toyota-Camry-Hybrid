@@ -1,23 +1,23 @@
 command_id: 7C0.7C8.2129
 test_cases:
 - expected_values:
-    CAMRY_HYBRID_FUEL_INPUT: 8
+    CAMRYH_FUEL_INPUT: 8
   response: 7C803612908
 - expected_values:
-    CAMRY_HYBRID_FUEL_INPUT: 16
+    CAMRYH_FUEL_INPUT: 16
   response: 7C803612910
 - expected_values:
-    CAMRY_HYBRID_FUEL_INPUT: 28
+    CAMRYH_FUEL_INPUT: 28
   response: 7C80361291C
 - expected_values:
-    CAMRY_HYBRID_FUEL_INPUT: 30
+    CAMRYH_FUEL_INPUT: 30
   response: 7C80361291E
 - expected_values:
-    CAMRY_HYBRID_FUEL_INPUT: 33
+    CAMRYH_FUEL_INPUT: 33
   response: 7C803612921
 - expected_values:
-    CAMRY_HYBRID_FUEL_INPUT: 36
+    CAMRYH_FUEL_INPUT: 36
   response: 7C803612924
 - expected_values:
-    CAMRY_HYBRID_FUEL_INPUT: 56
+    CAMRYH_FUEL_INPUT: 56
   response: 7C803612938

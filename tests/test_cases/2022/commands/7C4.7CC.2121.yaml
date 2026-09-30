@@ -1,8 +1,8 @@
 command_id: 7C4.7CC.2121
 test_cases:
 - expected_values:
-    CAMRY_HYBRID_CABIN_T: 18.5
+    CAMRYH_CABIN_T: 18.5
   response: 7CC03612164
 - expected_values:
-    CAMRY_HYBRID_CABIN_T: 43.25
+    CAMRYH_CABIN_T: 43.25
   response: 7CC036121C7

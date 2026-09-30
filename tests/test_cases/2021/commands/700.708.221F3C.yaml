@@ -1,11 +1,11 @@
 command_id: 700.708.221F3C
 test_cases:
 - expected_values:
-    CAMRY_HYBRID_CAT_T_11: 229.9
+    CAMRYH_CAT_T_11: 229.9
   response: 70805621F3C0A8B
 - expected_values:
-    CAMRY_HYBRID_CAT_T_11: 548.8
+    CAMRYH_CAT_T_11: 548.8
   response: 70805621F3C1700
 - expected_values:
-    CAMRY_HYBRID_CAT_T_11: 574.2
+    CAMRYH_CAT_T_11: 574.2
   response: 70805621F3C17FE
