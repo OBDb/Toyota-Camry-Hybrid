@@ -870,7 +870,7 @@
   ]},
 { "hdr": "7C0", "rax": "7C8", "cmd": {"22": "1022"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2024 },
   "signals": [
-    {"id": "CAMRY_HYBRID_FUEL_LEVEL", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel level"}
+    {"id": "CAMRY_HYBRID_FUEL_LEVEL", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "nullmax": 655.35, "unit": "liters" }, "name": "Fuel level"}
   ]},
 { "hdr": "7C4", "rax": "7CC", "cmd": {"21": "21"}, "freq": 1, "dbgfilter": { "years": [2008, 2009, 2010, 2011, 2014, 2015, 2016, 2017, 2018, 2020, 2021], "from": 2024 },
   "signals": [
