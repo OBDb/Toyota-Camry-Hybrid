@@ -1,17 +1,17 @@
 command_id: 7C4.7CC.2153
 test_cases:
 - expected_values:
-    CAMRY_HYBRID_REGULATOR_P: 264.11
+    CAMRYH_REGULATOR_P: 264.11
   response: 7CC03615331
 - expected_values:
-    CAMRY_HYBRID_REGULATOR_P: 278.82
+    CAMRYH_REGULATOR_P: 278.82
   response: 7CC03615332
 - expected_values:
-    CAMRY_HYBRID_REGULATOR_P: 308.24
+    CAMRYH_REGULATOR_P: 308.24
   response: 7CC03615334
 - expected_values:
-    CAMRY_HYBRID_REGULATOR_P: 322.95
+    CAMRYH_REGULATOR_P: 322.95
   response: 7CC03615335
 - expected_values:
-    CAMRY_HYBRID_REGULATOR_P: 337.66
+    CAMRYH_REGULATOR_P: 337.66
   response: 7CC03615336

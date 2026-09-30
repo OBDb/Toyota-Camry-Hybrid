@@ -1,17 +1,17 @@
 command_id: 7E0.7E8.2128|f=2010-
 test_cases:
 - expected_values:
-    CAMRY_HYBRID_ODO_7E0: 186915
+    CAMRYH_ODO_7E0: 186915
   response: 7E805612802DA23
 - expected_values:
-    CAMRY_HYBRID_ODO_7E0: 186916
+    CAMRYH_ODO_7E0: 186916
   response: 7E805612802DA24
 - expected_values:
-    CAMRY_HYBRID_ODO_7E0: 186918
+    CAMRYH_ODO_7E0: 186918
   response: 7E805612802DA26
 - expected_values:
-    CAMRY_HYBRID_ODO_7E0: 186921
+    CAMRYH_ODO_7E0: 186921
   response: 7E805612802DA29
 - expected_values:
-    CAMRY_HYBRID_ODO_7E0: 186923
+    CAMRYH_ODO_7E0: 186923
   response: 7E805612802DA2B

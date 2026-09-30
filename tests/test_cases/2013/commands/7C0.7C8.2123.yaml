@@ -1,8 +1,8 @@
 command_id: 7C0.7C8.2123
 test_cases:
 - expected_values:
-    CAMRY_HYBRID_ECT_7C0: 56.5
+    CAMRYH_ECT_7C0: 56.5
   response: 7C803612371
 - expected_values:
-    CAMRY_HYBRID_ECT_7C0: 82
+    CAMRYH_ECT_7C0: 82
   response: 7C8036123A4

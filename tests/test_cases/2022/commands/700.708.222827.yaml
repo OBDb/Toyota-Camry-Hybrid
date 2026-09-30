@@ -1,8 +1,8 @@
 command_id: 700.708.222827
 test_cases:
 - expected_values:
-    CAMRY_HYBRID_ELECTRIC_WATER_PUMP: 120
+    CAMRYH_ELECTRIC_WATER_PUMP: 120
   response: '7080462282703'
 - expected_values:
-    CAMRY_HYBRID_ELECTRIC_WATER_PUMP: 5800
+    CAMRYH_ELECTRIC_WATER_PUMP: 5800
   response: '7080462282791'

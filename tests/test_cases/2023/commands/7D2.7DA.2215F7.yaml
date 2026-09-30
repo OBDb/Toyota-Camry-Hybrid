@@ -1,14 +1,14 @@
 command_id: 7D2.7DA.2215F7
 test_cases:
 - expected_values:
-    CAMRY_HYBRID_12V_C: -13.22166
+    CAMRYH_12V_C: -13.22166
   response: 7DA056215F77276
 - expected_values:
-    CAMRY_HYBRID_12V_C: -0.00754
+    CAMRYH_12V_C: -0.00754
   response: 7DA056215F77FFE
 - expected_values:
-    CAMRY_HYBRID_12V_C: 0.97665
+    CAMRYH_12V_C: 0.97665
   response: 7DA056215F78100
 - expected_values:
-    CAMRY_HYBRID_12V_C: 15.2627
+    CAMRYH_12V_C: 15.2627
   response: 7DA056215F78FA1
