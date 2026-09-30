@@ -1,17 +1,17 @@
 command_id: 747.74F.220103|fc=1
 test_cases:
 - expected_values:
-    CAMRY_HYBRID_ODO_V6: 58465
+    CAMRYH_ODO_V6: 58465
   response: 74F076201030200E461
 - expected_values:
-    CAMRY_HYBRID_ODO_V6: 61192
+    CAMRYH_ODO_V6: 61192
   response: 74F076201030200EF08
 - expected_values:
-    CAMRY_HYBRID_ODO_V6: 63486
+    CAMRYH_ODO_V6: 63486
   response: 74F076201030200F7FE
 - expected_values:
-    CAMRY_HYBRID_ODO_V6: 64836
+    CAMRYH_ODO_V6: 64836
   response: 74F076201030200FD44
 - expected_values:
-    CAMRY_HYBRID_ODO_V6: 72406
+    CAMRYH_ODO_V6: 72406
   response: 74F0762010302011AD6

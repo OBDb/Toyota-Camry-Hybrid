@@ -1,9 +1,9 @@
 command_id: 7B0.7B8.2146
 test_cases:
 - expected_values:
-    CAMRY_HYBRID_ZP_DEC: 0
-    CAMRY_HYBRID_ZP_DEC2: 0
-    CAMRY_HYBRID_ZP_YAW: -2
+    CAMRYH_ZP_DEC: 0
+    CAMRYH_ZP_DEC2: 0
+    CAMRYH_ZP_YAW: -2
   response: |-
     7B81009614600007E80
     7B8215A2F0500000000

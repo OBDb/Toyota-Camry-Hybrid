@@ -1,26 +1,26 @@
 command_id: 7C0.7C8.2121
 test_cases:
 - expected_values:
-    CAMRY_HYBRID_VSS: 0
+    CAMRYH_VSS: 0
   response: 7C803612100
 - expected_values:
-    CAMRY_HYBRID_VSS: 12
+    CAMRYH_VSS: 12
   response: 7C80361210C
 - expected_values:
-    CAMRY_HYBRID_VSS: 22
+    CAMRYH_VSS: 22
   response: 7C803612116
 - expected_values:
-    CAMRY_HYBRID_VSS: 28
+    CAMRYH_VSS: 28
   response: 7C80361211C
 - expected_values:
-    CAMRY_HYBRID_VSS: 30
+    CAMRYH_VSS: 30
   response: 7C80361211E
 - expected_values:
-    CAMRY_HYBRID_VSS: 31
+    CAMRYH_VSS: 31
   response: 7C80361211F
 - expected_values:
-    CAMRY_HYBRID_VSS: 55
+    CAMRYH_VSS: 55
   response: 7C803612137
 - expected_values:
-    CAMRY_HYBRID_VSS: 62
+    CAMRYH_VSS: 62
   response: 7C80361213E

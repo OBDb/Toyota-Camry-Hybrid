@@ -1,14 +1,14 @@
 command_id: 7D2.7DA.221F46
 test_cases:
 - expected_values:
-    CAMRY_HYBRID_AAT: 29
+    CAMRYH_AAT: 29
   response: 7DA04621F4645
 - expected_values:
-    CAMRY_HYBRID_AAT: 30
+    CAMRYH_AAT: 30
   response: 7DA04621F4646
 - expected_values:
-    CAMRY_HYBRID_AAT: 31
+    CAMRYH_AAT: 31
   response: 7DA04621F4647
 - expected_values:
-    CAMRY_HYBRID_AAT: 32
+    CAMRYH_AAT: 32
   response: 7DA04621F4648

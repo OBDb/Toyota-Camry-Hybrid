@@ -1,8 +1,8 @@
 command_id: 7B0.7B8.213C
 test_cases:
 - expected_values:
-    CAMRY_HYBRID_STOP_LIGHT_RELAY: 0
+    CAMRYH_STOP_LIGHT_RELAY: 0
   response: 7B803613C00
 - expected_values:
-    CAMRY_HYBRID_STOP_LIGHT_RELAY: 1
+    CAMRYH_STOP_LIGHT_RELAY: 1
   response: 7B803613C80

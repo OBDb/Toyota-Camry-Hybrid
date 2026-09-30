@@ -1,11 +1,11 @@
 command_id: 700.708.221074
 test_cases:
 - expected_values:
-    CAMRY_HYBRID_EOP: 0
+    CAMRYH_EOP: 0
   response: '708056210740000'
 - expected_values:
-    CAMRY_HYBRID_EOP: 119.76562
+    CAMRYH_EOP: 119.76562
   response: 7080562107405FD
 - expected_values:
-    CAMRY_HYBRID_EOP: 589.21875
+    CAMRYH_EOP: 589.21875
   response: 708056210741D76

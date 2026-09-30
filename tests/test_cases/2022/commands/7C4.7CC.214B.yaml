@@ -1,8 +1,8 @@
 command_id: 7C4.7CC.214B
 test_cases:
 - expected_values:
-    CAMRY_HYBRID_EVAP_FIN_THERMISTOR: 0.05
+    CAMRYH_EVAP_FIN_THERMISTOR: 0.05
   response: 7CC03614B55
 - expected_values:
-    CAMRY_HYBRID_EVAP_FIN_THERMISTOR: 21.4
+    CAMRYH_EVAP_FIN_THERMISTOR: 21.4
   response: 7CC03614B92

@@ -1,26 +1,26 @@
 command_id: 7B0.7B8.2106
 test_cases:
 - expected_values:
-    CAMRY_HYBRID_YAW_1: -36
-    CAMRY_HYBRID_YAW_2: -36
+    CAMRYH_YAW_1: -36
+    CAMRYH_YAW_2: -36
   response: 7B80661065C5C7457
 - expected_values:
-    CAMRY_HYBRID_YAW_1: -21
-    CAMRY_HYBRID_YAW_2: -21
+    CAMRYH_YAW_1: -21
+    CAMRYH_YAW_2: -21
   response: 7B80661066B6B6D7C
 - expected_values:
-    CAMRY_HYBRID_YAW_1: -17
-    CAMRY_HYBRID_YAW_2: -17
+    CAMRYH_YAW_1: -17
+    CAMRYH_YAW_2: -17
   response: 7B80661066F6F7100
 - expected_values:
-    CAMRY_HYBRID_YAW_1: -10
-    CAMRY_HYBRID_YAW_2: -10
+    CAMRYH_YAW_1: -10
+    CAMRYH_YAW_2: -10
   response: 7B8066106767692A2
 - expected_values:
-    CAMRY_HYBRID_YAW_1: 15
-    CAMRY_HYBRID_YAW_2: 15
+    CAMRYH_YAW_1: 15
+    CAMRYH_YAW_2: 15
   response: 7B80661068F8F81FE
 - expected_values:
-    CAMRY_HYBRID_YAW_1: 31
-    CAMRY_HYBRID_YAW_2: 31
+    CAMRYH_YAW_1: 31
+    CAMRYH_YAW_2: 31
   response: 7B80661069F9F8F2D

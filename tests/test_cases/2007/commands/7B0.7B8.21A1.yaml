@@ -1,5 +1,5 @@
 command_id: 7B0.7B8.21A1
 test_cases:
 - expected_values:
-    CAMRY_HYBRID_ZERO_POINT_OF_YAW_RATE: -2
+    CAMRYH_ZERO_POINT_OF_YAW_RATE: -2
   response: 7B80361A17E
