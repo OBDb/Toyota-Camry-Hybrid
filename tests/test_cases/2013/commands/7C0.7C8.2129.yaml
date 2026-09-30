@@ -1,30 +1,23 @@
 command_id: 7C0.7C8.2129
 test_cases:
 - expected_values:
-    TOYOTA_FLI_VOL: 1.0568
-    TOYOTA_FUEL_INPUT: 8
+    CAMRY_HYBRID_FUEL_INPUT: 8
   response: 7C803612908
 - expected_values:
-    TOYOTA_FLI_VOL: 2.11361
-    TOYOTA_FUEL_INPUT: 16
+    CAMRY_HYBRID_FUEL_INPUT: 16
   response: 7C803612910
 - expected_values:
-    TOYOTA_FLI_VOL: 3.69881
-    TOYOTA_FUEL_INPUT: 28
+    CAMRY_HYBRID_FUEL_INPUT: 28
   response: 7C80361291C
 - expected_values:
-    TOYOTA_FLI_VOL: 3.96301
-    TOYOTA_FUEL_INPUT: 30
+    CAMRY_HYBRID_FUEL_INPUT: 30
   response: 7C80361291E
 - expected_values:
-    TOYOTA_FLI_VOL: 4.35931
-    TOYOTA_FUEL_INPUT: 33
+    CAMRY_HYBRID_FUEL_INPUT: 33
   response: 7C803612921
 - expected_values:
-    TOYOTA_FLI_VOL: 4.75561
-    TOYOTA_FUEL_INPUT: 36
+    CAMRY_HYBRID_FUEL_INPUT: 36
   response: 7C803612924
 - expected_values:
-    TOYOTA_FLI_VOL: 7.39762
-    TOYOTA_FUEL_INPUT: 56
+    CAMRY_HYBRID_FUEL_INPUT: 56
   response: 7C803612938

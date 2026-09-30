@@ -1,8 +1,8 @@
 command_id: 7C4.7CC.2153
 test_cases:
 - expected_values:
-    TOYOTA_REGULATOR_P: 0.19056
+    CAMRY_HYBRID_REGULATOR_P: 190.56
   response: 7CC0361532C
 - expected_values:
-    TOYOTA_REGULATOR_P: 1.10258
+    CAMRY_HYBRID_REGULATOR_P: 1102.58
   response: 7CC0361536A

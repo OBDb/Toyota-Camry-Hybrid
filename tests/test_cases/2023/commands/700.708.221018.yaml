@@ -1,11 +1,11 @@
 command_id: 700.708.221018
 test_cases:
 - expected_values:
-    TOYOTA_INJECTOR_PORT: 0
+    CAMRY_HYBRID_INJECTOR_PORT: 0
   response: '708056210180000'
 - expected_values:
-    TOYOTA_INJECTOR_PORT: 4.604
+    CAMRY_HYBRID_INJECTOR_PORT: 4.604
   response: 7080562101811FC
 - expected_values:
-    TOYOTA_INJECTOR_PORT: 8.321
+    CAMRY_HYBRID_INJECTOR_PORT: 8.321
   response: '708056210182081'

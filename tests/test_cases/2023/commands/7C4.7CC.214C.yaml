@@ -1,0 +1,14 @@
+command_id: 7C4.7CC.214C
+test_cases:
+- expected_values:
+    CAMRY_HYBRID_EVAPORATOR_TARGET_TEMP: 1
+  response: 7CC04614C8064
+- expected_values:
+    CAMRY_HYBRID_EVAPORATOR_TARGET_TEMP: 2.84
+  response: 7CC04614C811C
+- expected_values:
+    CAMRY_HYBRID_EVAPORATOR_TARGET_TEMP: 5
+  response: 7CC04614C81F4
+- expected_values:
+    CAMRY_HYBRID_EVAPORATOR_TARGET_TEMP: 6.64
+  response: 7CC04614C8298

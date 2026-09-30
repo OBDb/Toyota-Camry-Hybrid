@@ -1,29 +1,29 @@
 command_id: 7D2.7DA.221F46
 test_cases:
 - expected_values:
-    TOYOTA_AAT_V2: 16
+    CAMRY_HYBRID_AAT: 16
   response: 7DA04621F4638
 - expected_values:
-    TOYOTA_AAT_V2: 17
+    CAMRY_HYBRID_AAT: 17
   response: 7DA04621F4639
 - expected_values:
-    TOYOTA_AAT_V2: 18
+    CAMRY_HYBRID_AAT: 18
   response: 7DA04621F463A
 - expected_values:
-    TOYOTA_AAT_V2: 21
+    CAMRY_HYBRID_AAT: 21
   response: 7DA04621F463D
 - expected_values:
-    TOYOTA_AAT_V2: 22
+    CAMRY_HYBRID_AAT: 22
   response: 7DA04621F463E
 - expected_values:
-    TOYOTA_AAT_V2: 23
+    CAMRY_HYBRID_AAT: 23
   response: 7DA04621F463F
 - expected_values:
-    TOYOTA_AAT_V2: 24
+    CAMRY_HYBRID_AAT: 24
   response: 7DA04621F4640
 - expected_values:
-    TOYOTA_AAT_V2: 25
+    CAMRY_HYBRID_AAT: 25
   response: 7DA04621F4641
 - expected_values:
-    TOYOTA_AAT_V2: 26
+    CAMRY_HYBRID_AAT: 26
   response: 7DA04621F4642

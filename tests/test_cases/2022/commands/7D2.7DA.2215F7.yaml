@@ -1,14 +1,14 @@
 command_id: 7D2.7DA.2215F7
 test_cases:
 - expected_values:
-    TOYOTA_12V_C: -12.22602
+    CAMRY_HYBRID_12V_C: -12.22602
   response: 7DA056215F7737B
 - expected_values:
-    TOYOTA_12V_C: 1.95322
+    CAMRY_HYBRID_12V_C: 1.95322
   response: 7DA056215F78200
 - expected_values:
-    TOYOTA_12V_C: 3.90253
+    CAMRY_HYBRID_12V_C: 3.90253
   response: 7DA056215F783FF
 - expected_values:
-    TOYOTA_12V_C: 32.42504
+    CAMRY_HYBRID_12V_C: 32.42504
   response: 7DA056215F7A134

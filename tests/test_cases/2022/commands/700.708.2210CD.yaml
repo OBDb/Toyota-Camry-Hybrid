@@ -1,18 +1,14 @@
 command_id: 700.708.2210CD
 test_cases:
 - expected_values:
-    TOYOTA_LFP: 36
-    TOYOTA_LFPS: -3240.8
+    CAMRY_HYBRID_LFP: 36
   response: 708056210CD8168
 - expected_values:
-    TOYOTA_LFP: 204.9
-    TOYOTA_LFPS: -3071.9
+    CAMRY_HYBRID_LFP: 204.9
   response: 708056210CD8801
 - expected_values:
-    TOYOTA_LFP: 409.5
-    TOYOTA_LFPS: -2867.3
+    CAMRY_HYBRID_LFP: 409.5
   response: 708056210CD8FFF
 - expected_values:
-    TOYOTA_LFP: 652.1
-    TOYOTA_LFPS: -2624.7
+    CAMRY_HYBRID_LFP: 652.1
   response: 708056210CD9979

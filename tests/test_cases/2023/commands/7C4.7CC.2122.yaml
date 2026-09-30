@@ -1,8 +1,8 @@
 command_id: 7C4.7CC.2122
 test_cases:
 - expected_values:
-    TOYOTA_AAT_7C4: -1.25
+    CAMRY_HYBRID_AAT_7C4: -1.25
   response: 7CC0361223F
 - expected_values:
-    TOYOTA_AAT_7C4: 35.15
+    CAMRY_HYBRID_AAT_7C4: 35.15
   response: 7CC036122A7

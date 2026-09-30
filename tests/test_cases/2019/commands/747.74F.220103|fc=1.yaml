@@ -1,0 +1,11 @@
+command_id: 747.74F.220103|fc=1
+test_cases:
+- expected_values:
+    CAMRY_HYBRID_ODO_V6: 81665
+  response: 74F0762010302013F01
+- expected_values:
+    CAMRY_HYBRID_ODO_V6: 82687
+  response: 74F07620103020142FF
+- expected_values:
+    CAMRY_HYBRID_ODO_V6: 82692
+  response: 74F0762010302014304
