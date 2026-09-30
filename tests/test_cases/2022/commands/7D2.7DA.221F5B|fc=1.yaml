@@ -1,0 +1,8 @@
+command_id: 7D2.7DA.221F5B|fc=1
+test_cases:
+- expected_values:
+    CAMRY_HYBRID_SOC: 21.96078
+  response: 7DA04621F5B38
+- expected_values:
+    CAMRY_HYBRID_SOC: 82.7451
+  response: 7DA04621F5BD3

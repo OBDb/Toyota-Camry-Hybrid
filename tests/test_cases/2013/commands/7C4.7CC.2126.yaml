@@ -1,8 +1,8 @@
 command_id: 7C4.7CC.2126
 test_cases:
 - expected_values:
-    TOYOTA_ECT: 52.4
+    CAMRY_HYBRID_ECT: 52.4
   response: 7CC03612692
 - expected_values:
-    TOYOTA_ECT: 80.05
+    CAMRY_HYBRID_ECT: 80.05
   response: 7CC036126E1

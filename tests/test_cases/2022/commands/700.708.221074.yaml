@@ -1,14 +1,11 @@
 command_id: 700.708.221074
 test_cases:
 - expected_values:
-    TOYOTA_ENG_OIL_PRESS: 0
-    TOYOTA_EOP: 0
+    CAMRY_HYBRID_EOP: 0
   response: '708056210740000'
 - expected_values:
-    TOYOTA_ENG_OIL_PRESS: 119.76562
-    TOYOTA_EOP: 1533
+    CAMRY_HYBRID_EOP: 119.76562
   response: 7080562107405FD
 - expected_values:
-    TOYOTA_ENG_OIL_PRESS: 564.14062
-    TOYOTA_EOP: 7221
+    CAMRY_HYBRID_EOP: 564.14062
   response: 708056210741C35
