@@ -84,7 +84,7 @@
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1075"}, "freq": 1,
   "signals": [
-    {"id": "CAMRY_HYBRID_IWP_SPEED", "path": "Movement", "fmt": { "len": 16, "max": 300, "min": -40, "mul": 238212, "div": 10000, "add": -256000, "unit": "celsius" }, "name": "Intercooler water pump speed"}
+    {"id": "CAMRY_HYBRID_IWP_SPEED", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Intercooler water pump speed, raw count"}
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "1078"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2024 },
   "signals": [
@@ -984,7 +984,7 @@
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "106E"}, "freq": 1,
   "signals": [
-    {"id": "CAMRY_HYBRID_AC_POWER_CONS", "path": "Engine", "fmt": { "len": 8, "max": -12500, "min": -12500, "div": 2000, "add": -12500, "unit": "kilowatts" }, "name": "Air conditioning power consumption"}
+    {"id": "CAMRY_HYBRID_AC_POWER_CONS", "path": "Engine", "fmt": { "len": 8, "max": 12.75, "div": 20, "unit": "kilowatts" }, "name": "Air conditioning power consumption"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1075"}, "freq": 0.1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2024 },
   "signals": [
