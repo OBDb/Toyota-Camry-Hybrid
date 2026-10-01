@@ -1,8 +1,8 @@
 command_id: 7D2.7DA.221F46
 test_cases:
 - expected_values:
-    CAMRYH_AAT: -1
-  response: 7DA04621F4627
+    CAMRYH_AAT: null
+  response: 7DA04621F4600
 - expected_values:
     CAMRYH_AAT: 41
   response: 7DA04621F4651
