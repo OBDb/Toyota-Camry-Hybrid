@@ -1,0 +1,8 @@
+command_id: 7D2.7DA.2215F7
+test_cases:
+- expected_values:
+    CAMRYH_12V_C: 1.0148
+  response: 7DA056215F7810A
+- expected_values:
+    CAMRYH_12V_C: 1.11398
+  response: 7DA056215F78124

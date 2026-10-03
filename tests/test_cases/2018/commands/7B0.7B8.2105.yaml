@@ -1,0 +1,10 @@
+command_id: 7B0.7B8.2105
+test_cases:
+- expected_values:
+    CAMRYH_DECEL: -0.07129
+    CAMRYH_DECEL_2: 0.49906
+  response: 7B80561057F8300
+- expected_values:
+    CAMRYH_DECEL: 0.07129
+    CAMRYH_DECEL_2: 0.49906
+  response: 7B8056105808300

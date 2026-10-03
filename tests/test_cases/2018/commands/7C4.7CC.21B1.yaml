@@ -1,0 +1,8 @@
+command_id: 7C4.7CC.21B1
+test_cases:
+- expected_values:
+    CAMRYH_GLASS_HUMIDITY: 15.19951
+  response: 7CC0461B126E9
+- expected_values:
+    CAMRYH_GLASS_HUMIDITY: 15.3994
+  response: 7CC0461B1276C

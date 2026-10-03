@@ -1,0 +1,8 @@
+command_id: 7D2.7DA.2210A4
+test_cases:
+- expected_values:
+    CAMRYH_GEN_INVERTER_T: 22
+  response: 7DA066210A43E3F3F
+- expected_values:
+    CAMRYH_GEN_INVERTER_T: 23
+  response: 7DA066210A43F3F3F

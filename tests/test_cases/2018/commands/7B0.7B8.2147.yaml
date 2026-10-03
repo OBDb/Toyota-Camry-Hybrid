@@ -1,0 +1,18 @@
+command_id: 7B0.7B8.2147
+test_cases:
+- expected_values:
+    CAMRYH_LAT_G: 0.02
+    CAMRYH_LNG_G: 0
+    CAMRYH_STEERING_ANGLE: -11.9
+    CAMRYH_YAW: 0
+  response: |-
+    7B8100961470100807F
+    7B82189000000000000
+- expected_values:
+    CAMRYH_LAT_G: 0.02
+    CAMRYH_LNG_G: 0
+    CAMRYH_STEERING_ANGLE: -7.4
+    CAMRYH_YAW: 0
+  response: |-
+    7B8100961470100807F
+    7B821B6000000000000

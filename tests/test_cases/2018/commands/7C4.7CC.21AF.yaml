@@ -1,0 +1,8 @@
+command_id: 7C4.7CC.21AF
+test_cases:
+- expected_values:
+    CAMRYH_GLASS_T: 134.264
+  response: 7CC0461AF9630
+- expected_values:
+    CAMRYH_GLASS_T: 134.624
+  response: 7CC0461AF9644
