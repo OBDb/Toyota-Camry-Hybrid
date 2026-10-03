@@ -1,0 +1,5 @@
+command_id: 7C0.7C8.221021
+test_cases:
+- expected_values:
+    CAMRYH_BATTERY_VOLTAGE_7C0: 15.2
+  response: 7C80462102198

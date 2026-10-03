@@ -1,0 +1,10 @@
+command_id: 7D2.7DA.2210B0
+test_cases:
+- expected_values:
+    CAMRYH_VH_V_AFTER_BOOSTING: 257
+    CAMRYH_VL_V_BEFORE_BOOSTING: 257.5
+  response: 7DA076210B002030202
+- expected_values:
+    CAMRYH_VH_V_AFTER_BOOSTING: 257.5
+    CAMRYH_VL_V_BEFORE_BOOSTING: 258
+  response: 7DA076210B002040203

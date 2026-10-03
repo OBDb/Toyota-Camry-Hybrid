@@ -1,0 +1,8 @@
+command_id: 700.708.221062
+test_cases:
+- expected_values:
+    CAMRYH_EXHAUST_VVT_OCV_CONTROL_DUTY: 10.77287
+  response: '7080562106206E5'
+- expected_values:
+    CAMRYH_EXHAUST_VVT_OCV_CONTROL_DUTY: 10.94377
+  response: '708056210620701'

@@ -1,0 +1,8 @@
+command_id: 700.708.221F3E
+test_cases:
+- expected_values:
+    CAMRYH_CAT_T_12: 127.2
+  response: 70805621F3E0688
+- expected_values:
+    CAMRYH_CAT_T_12: 169.9
+  response: 70805621F3E0833
