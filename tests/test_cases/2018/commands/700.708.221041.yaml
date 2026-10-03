@@ -1,0 +1,10 @@
+command_id: 700.708.221041
+test_cases:
+- expected_values:
+    CAMRYH_ECT_IGN: 16.25
+    CAMRYH_ECT_INIT: 35.625
+  response: 708056210415A79
+- expected_values:
+    CAMRYH_ECT_IGN: 16.25
+    CAMRYH_ECT_INIT: 36.875
+  response: 708056210415A7B

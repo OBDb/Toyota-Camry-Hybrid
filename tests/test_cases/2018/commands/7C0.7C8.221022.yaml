@@ -1,0 +1,8 @@
+command_id: 7C0.7C8.221022
+test_cases:
+- expected_values:
+    CAMRYH_FUEL_LEVEL: 44.83
+  response: 7C8056210221183
+- expected_values:
+    CAMRYH_FUEL_LEVEL: 44.87
+  response: 7C8056210221187

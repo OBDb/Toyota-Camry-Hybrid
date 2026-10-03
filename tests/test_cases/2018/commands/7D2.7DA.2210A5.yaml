@@ -1,0 +1,7 @@
+command_id: 7D2.7DA.2210A5
+test_cases:
+- expected_values:
+    CAMRYH_MAX_MOTOR_INVERTER_T: 22
+    CAMRYH_MOTOR_INVERTER_T: 21
+    CAMRYH_MOTOR_INVERTER_T_ON: 18
+  response: 7DA066210A53D3A3E

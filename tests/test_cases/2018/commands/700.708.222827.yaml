@@ -1,0 +1,5 @@
+command_id: 700.708.222827
+test_cases:
+- expected_values:
+    CAMRYH_ELECTRIC_WATER_PUMP: 160
+  response: '7080462282704'

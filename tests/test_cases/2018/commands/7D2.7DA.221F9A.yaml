@@ -1,0 +1,14 @@
+command_id: 7D2.7DA.221F9A
+test_cases:
+- expected_values:
+    CAMRYH_HVBAT_C: -3276.2
+    CAMRYH_HVBAT_V: 259
+  response: |-
+    7DA1009621F9A070040
+    7DA21C0800600000000
+- expected_values:
+    CAMRYH_HVBAT_C: -3276.1
+    CAMRYH_HVBAT_V: 260
+  response: |-
+    7DA1009621F9A070041
+    7DA2100800700000000

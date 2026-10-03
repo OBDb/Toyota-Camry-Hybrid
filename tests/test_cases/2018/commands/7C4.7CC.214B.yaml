@@ -1,0 +1,8 @@
+command_id: 7C4.7CC.214B
+test_cases:
+- expected_values:
+    CAMRYH_EVAP_FIN_THERMISTOR: 21.05
+  response: 7CC03614B91
+- expected_values:
+    CAMRYH_EVAP_FIN_THERMISTOR: 21.4
+  response: 7CC03614B92
