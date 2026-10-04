@@ -4,3 +4,7 @@ test_cases:
     CAMRYH_EWP_RPM: 150
     CAMRYH_EWP_TARGET_VSS: 0
   response: '708056210430006'
+- expected_values:
+    CAMRYH_EWP_RPM: 1050
+    CAMRYH_EWP_TARGET_VSS: 1050
+  response: 708056210432A2A

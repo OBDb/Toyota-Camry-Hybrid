@@ -1,14 +1,32 @@
 command_id: 7D2.7DA.2210A1
 test_cases:
 - expected_values:
+    CAMRYH_RPM: -1
+    CAMRYH_TQ: 0
+  response: |-
+    7DA100C6210A17FFF80
+    7DA2100030080000400
+- expected_values:
     CAMRYH_RPM: 0
     CAMRYH_TQ: -0.125
   response: |-
     7DA100C6210A1800080
     7DA210003007FFF0400
 - expected_values:
+    CAMRYH_RPM: 0
+    CAMRYH_TQ: 0
+  response: |-
+    7DA100C6210A1800080
+    7DA2100030080000400
+- expected_values:
     CAMRYH_RPM: 1
     CAMRYH_TQ: -0.125
   response: |-
     7DA100C6210A1800180
     7DA210003007FFF0400
+- expected_values:
+    CAMRYH_RPM: 1
+    CAMRYH_TQ: 0
+  response: |-
+    7DA100C6210A1800180
+    7DA2100030080000400

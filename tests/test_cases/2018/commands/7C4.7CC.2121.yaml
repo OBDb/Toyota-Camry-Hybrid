@@ -4,5 +4,8 @@ test_cases:
     CAMRYH_CABIN_T: 26.25
   response: 7CC03612183
 - expected_values:
+    CAMRYH_CABIN_T: 26.75
+  response: 7CC03612185
+- expected_values:
     CAMRYH_CABIN_T: 27
   response: 7CC03612186

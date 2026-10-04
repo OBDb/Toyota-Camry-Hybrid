@@ -16,3 +16,27 @@ test_cases:
   response: |-
     7B8100961470100807F
     7B821B6000000000000
+- expected_values:
+    CAMRYH_LAT_G: -0.06
+    CAMRYH_LNG_G: -0.04
+    CAMRYH_STEERING_ANGLE: -9.7
+    CAMRYH_YAW: 0
+  response: |-
+    7B810096147FDFE807F
+    7B8219F000000000000
+- expected_values:
+    CAMRYH_LAT_G: -0.06
+    CAMRYH_LNG_G: -0.04
+    CAMRYH_STEERING_ANGLE: -9.3
+    CAMRYH_YAW: 0
+  response: |-
+    7B810096147FDFE807F
+    7B821A3000000000000
+- expected_values:
+    CAMRYH_LAT_G: -0.06
+    CAMRYH_LNG_G: -0.04
+    CAMRYH_STEERING_ANGLE: -9.2
+    CAMRYH_YAW: 0
+  response: |-
+    7B810096147FDFE807F
+    7B821A4000000000000

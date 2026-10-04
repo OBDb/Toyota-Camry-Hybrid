@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CAMRYH_EXHAUST_VVT_OVER_ADV_LEARN_B1: 89.71676
   response: 7080562108F23E3
+- expected_values:
+    CAMRYH_EXHAUST_VVT_OVER_ADV_LEARN_B1: 89.78512
+  response: 7080562108F23EA

@@ -6,3 +6,12 @@ test_cases:
 - expected_values:
     CAMRYH_EXHAUST_VVT_OCV_CONTROL_DUTY: 10.94377
   response: '708056210620701'
+- expected_values:
+    CAMRYH_EXHAUST_VVT_OCV_CONTROL_DUTY: 12.23774
+  response: 7080562106207D5
+- expected_values:
+    CAMRYH_EXHAUST_VVT_OCV_CONTROL_DUTY: 12.37201
+  response: 7080562106207EB
+- expected_values:
+    CAMRYH_EXHAUST_VVT_OCV_CONTROL_DUTY: 12.45747
+  response: 7080562106207F9

@@ -6,3 +6,12 @@ test_cases:
 - expected_values:
     CAMRYH_COOL_T: 37
   response: 7DA04621F054D
+- expected_values:
+    CAMRYH_COOL_T: 69
+  response: 7DA04621F056D
+- expected_values:
+    CAMRYH_COOL_T: 70
+  response: 7DA04621F056E
+- expected_values:
+    CAMRYH_COOL_T: 72
+  response: 7DA04621F0570

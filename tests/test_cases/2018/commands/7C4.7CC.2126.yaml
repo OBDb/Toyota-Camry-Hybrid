@@ -6,3 +6,12 @@ test_cases:
 - expected_values:
     CAMRYH_ECT: 37
   response: 7CC03612666
+- expected_values:
+    CAMRYH_ECT: 70.6
+  response: 7CC036126C6
+- expected_values:
+    CAMRYH_ECT: 71.65
+  response: 7CC036126C9
+- expected_values:
+    CAMRYH_ECT: 73.05
+  response: 7CC036126CD

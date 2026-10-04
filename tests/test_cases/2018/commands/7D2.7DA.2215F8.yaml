@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CAMRYH_12V_T: 13.9
   response: 7DA056215F8021B
+- expected_values:
+    CAMRYH_12V_T: 18.9
+  response: 7DA056215F8024D

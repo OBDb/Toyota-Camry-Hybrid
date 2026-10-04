@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     CAMRYH_LFP: 612.6
   response: 708056210CD97EE
+- expected_values:
+    CAMRYH_LFP: 612.8
+  response: 708056210CD97F0

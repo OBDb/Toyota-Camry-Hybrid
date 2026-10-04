@@ -6,3 +6,12 @@ test_cases:
 - expected_values:
     CAMRYH_EOT_V2: 34
   response: 70804621F5C4A
+- expected_values:
+    CAMRYH_EOT_V2: 73
+  response: 70804621F5C71
+- expected_values:
+    CAMRYH_EOT_V2: 74
+  response: 70804621F5C72
+- expected_values:
+    CAMRYH_EOT_V2: 75
+  response: 70804621F5C73
