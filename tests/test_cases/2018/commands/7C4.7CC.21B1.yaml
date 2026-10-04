@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     CAMRYH_GLASS_HUMIDITY: 15.3994
   response: 7CC0461B1276C
+- expected_values:
+    CAMRYH_GLASS_HUMIDITY: 61.89975
+  response: 7CC0461B19E76
+- expected_values:
+    CAMRYH_GLASS_HUMIDITY: 62.19883
+  response: 7CC0461B19F3A

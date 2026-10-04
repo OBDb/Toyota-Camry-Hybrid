@@ -1,6 +1,15 @@
 command_id: 7D2.7DA.221F5B|fc=1
 test_cases:
 - expected_values:
+    CAMRYH_SOC: 32.15686
+  response: 7DA04621F5B52
+- expected_values:
+    CAMRYH_SOC: 32.54902
+  response: 7DA04621F5B53
+- expected_values:
+    CAMRYH_SOC: 33.72549
+  response: 7DA04621F5B56
+- expected_values:
     CAMRYH_SOC: 51.37255
   response: 7DA04621F5B83
 - expected_values:

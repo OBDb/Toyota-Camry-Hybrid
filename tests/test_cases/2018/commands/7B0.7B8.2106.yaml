@@ -7,4 +7,12 @@ test_cases:
 - expected_values:
     CAMRYH_YAW_1: 0
     CAMRYH_YAW_2: 0
+  response: 7B806610680807FA6
+- expected_values:
+    CAMRYH_YAW_1: 0
+    CAMRYH_YAW_2: 0
+  response: 7B806610680807FB5
+- expected_values:
+    CAMRYH_YAW_1: 0
+    CAMRYH_YAW_2: 0
   response: 7B806610680807FC4

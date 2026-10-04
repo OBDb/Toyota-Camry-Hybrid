@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CAMRYH_ELECTRIC_WATER_PUMP: 160
   response: '7080462282704'
+- expected_values:
+    CAMRYH_ELECTRIC_WATER_PUMP: 1040
+  response: 708046228271A

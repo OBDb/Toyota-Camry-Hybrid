@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     CAMRYH_REGULATOR_P: 499.47
   response: 7CC03615341
+- expected_values:
+    CAMRYH_REGULATOR_P: 543.6
+  response: 7CC03615344
+- expected_values:
+    CAMRYH_REGULATOR_P: 587.73
+  response: 7CC03615347

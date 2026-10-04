@@ -1,9 +1,17 @@
 command_id: 7D2.7DA.2210A7
 test_cases:
 - expected_values:
+    CAMRYH_BOOSTING_CONV_T_HI: 21
+    CAMRYH_BOOSTING_CONV_T_LO: 22
+  response: 7DA076210A73D3E4E5F
+- expected_values:
     CAMRYH_BOOSTING_CONV_T_HI: 22
     CAMRYH_BOOSTING_CONV_T_LO: 23
   response: 7DA076210A73E3F3D40
+- expected_values:
+    CAMRYH_BOOSTING_CONV_T_HI: 22
+    CAMRYH_BOOSTING_CONV_T_LO: 23
+  response: 7DA076210A73E3F4E5F
 - expected_values:
     CAMRYH_BOOSTING_CONV_T_HI: 23
     CAMRYH_BOOSTING_CONV_T_LO: 24

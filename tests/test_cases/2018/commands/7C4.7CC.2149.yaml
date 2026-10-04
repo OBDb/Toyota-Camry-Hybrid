@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CAMRYH_COMP_SPD: 0
   response: 7CC0461490000
+- expected_values:
+    CAMRYH_COMP_SPD: 1497
+  response: 7CC04614905D9

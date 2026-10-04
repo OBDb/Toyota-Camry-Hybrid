@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     CAMRYH_COMP_TGT_SPD: 0
   response: 7CC04614A0000
+- expected_values:
+    CAMRYH_COMP_TGT_SPD: 1407
+  response: 7CC04614A057F
+- expected_values:
+    CAMRYH_COMP_TGT_SPD: 1468
+  response: 7CC04614A05BC
+- expected_values:
+    CAMRYH_COMP_TGT_SPD: 1492
+  response: 7CC04614A05D4

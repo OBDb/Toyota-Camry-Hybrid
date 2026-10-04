@@ -4,3 +4,7 @@ test_cases:
     CAMRYH_HVBAT_SOC_MAX: 54
     CAMRYH_HVBAT_SOC_MIN: 46.5
   response: 7DA0662106C606C5D
+- expected_values:
+    CAMRYH_HVBAT_SOC_MAX: 68
+    CAMRYH_HVBAT_SOC_MIN: 30.5
+  response: 7DA0662106C71883D

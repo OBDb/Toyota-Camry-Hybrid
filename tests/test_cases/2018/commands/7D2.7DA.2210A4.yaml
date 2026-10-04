@@ -4,5 +4,8 @@ test_cases:
     CAMRYH_GEN_INVERTER_T: 22
   response: 7DA066210A43E3F3F
 - expected_values:
+    CAMRYH_GEN_INVERTER_T: 22
+  response: 7DA066210A43E5051
+- expected_values:
     CAMRYH_GEN_INVERTER_T: 23
   response: 7DA066210A43F3F3F

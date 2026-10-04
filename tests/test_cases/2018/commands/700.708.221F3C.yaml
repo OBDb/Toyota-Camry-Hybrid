@@ -6,3 +6,12 @@ test_cases:
 - expected_values:
     CAMRYH_CAT_T_11: 246
   response: 70805621F3C0B2C
+- expected_values:
+    CAMRYH_CAT_T_11: 265.3
+  response: 70805621F3C0BED
+- expected_values:
+    CAMRYH_CAT_T_11: 279.5
+  response: 70805621F3C0C7B
+- expected_values:
+    CAMRYH_CAT_T_11: 296.7
+  response: 70805621F3C0D27

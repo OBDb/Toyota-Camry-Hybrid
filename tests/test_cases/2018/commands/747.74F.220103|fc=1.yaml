@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CAMRYH_ODO_V6: 85898
   response: 74F0762010302014F8A
+- expected_values:
+    CAMRYH_ODO_V6: 86001
+  response: 74F0762010302014FF1

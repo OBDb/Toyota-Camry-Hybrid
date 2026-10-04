@@ -1,6 +1,15 @@
 command_id: 7D2.7DA.221040
 test_cases:
 - expected_values:
+    CAMRYH_TRANSAXLE_OIL_T: 49
+  response: 7DA06621040AC3059
+- expected_values:
+    CAMRYH_TRANSAXLE_OIL_T: 49
+  response: 7DA06621040AC9059
+- expected_values:
+    CAMRYH_TRANSAXLE_OIL_T: 49
+  response: 7DA06621040ACE059
+- expected_values:
     CAMRYH_TRANSAXLE_OIL_T: 16
   response: 7DA06621040D11038
 - expected_values:

@@ -8,3 +8,15 @@ test_cases:
     CAMRYH_ECT_IGN: 16.25
     CAMRYH_ECT_INIT: 36.875
   response: 708056210415A7B
+- expected_values:
+    CAMRYH_ECT_IGN: 43.75
+    CAMRYH_ECT_INIT: 70
+  response: 7080562104186B0
+- expected_values:
+    CAMRYH_ECT_IGN: 43.75
+    CAMRYH_ECT_INIT: 70.625
+  response: 7080562104186B1
+- expected_values:
+    CAMRYH_ECT_IGN: 43.75
+    CAMRYH_ECT_INIT: 71.875
+  response: 7080562104186B3
