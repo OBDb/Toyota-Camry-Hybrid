@@ -1,0 +1,14 @@
+command_id: 7C4.7CC.214A
+test_cases:
+- expected_values:
+    CAMRYH_COMP_TGT_SPD: 2908
+  response: 7CC04614A0B5C
+- expected_values:
+    CAMRYH_COMP_TGT_SPD: 3266
+  response: 7CC04614A0CC2
+- expected_values:
+    CAMRYH_COMP_TGT_SPD: 3508
+  response: 7CC04614A0DB4
+- expected_values:
+    CAMRYH_COMP_TGT_SPD: 3958
+  response: 7CC04614A0F76
