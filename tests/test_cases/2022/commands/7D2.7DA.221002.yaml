@@ -1,0 +1,23 @@
+command_id: 7D2.7DA.221002
+test_cases:
+- expected_values:
+    CAMRYH_AUX_BAT_V: 12.7124
+  response: 7DA0562100228B4
+- expected_values:
+    CAMRYH_AUX_BAT_V: 12.7612
+  response: 7DA0562100228DC
+- expected_values:
+    CAMRYH_AUX_BAT_V: 12.7856
+  response: 7DA0562100228F0
+- expected_values:
+    CAMRYH_AUX_BAT_V: 13.7372
+  response: 7DA056210022BFC
+- expected_values:
+    CAMRYH_AUX_BAT_V: 14.16664
+  response: 7DA056210022D5C
+- expected_values:
+    CAMRYH_AUX_BAT_V: 14.26424
+  response: 7DA056210022DAC
+- expected_values:
+    CAMRYH_AUX_BAT_V: 14.28864
+  response: 7DA056210022DC0
