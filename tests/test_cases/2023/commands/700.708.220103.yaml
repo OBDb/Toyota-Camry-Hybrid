@@ -1,0 +1,5 @@
+command_id: 700.708.220103
+test_cases:
+- expected_values:
+    CAMRYH_ENG_ODO: 88760
+  response: 7080762010302015AB8

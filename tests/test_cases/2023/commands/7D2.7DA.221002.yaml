@@ -1,0 +1,14 @@
+command_id: 7D2.7DA.221002
+test_cases:
+- expected_values:
+    CAMRYH_AUX_BAT_V: 14.09344
+  response: 7DA056210022D20
+- expected_values:
+    CAMRYH_AUX_BAT_V: 14.1032
+  response: 7DA056210022D28
+- expected_values:
+    CAMRYH_AUX_BAT_V: 14.10808
+  response: 7DA056210022D2C
+- expected_values:
+    CAMRYH_AUX_BAT_V: 14.13248
+  response: 7DA056210022D40

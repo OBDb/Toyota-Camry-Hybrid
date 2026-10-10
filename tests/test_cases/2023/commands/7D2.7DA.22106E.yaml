@@ -1,0 +1,14 @@
+command_id: 7D2.7DA.22106E
+test_cases:
+- expected_values:
+    CAMRYH_AC_POWER_CONS: 0.8
+  response: 7DA0462106E10
+- expected_values:
+    CAMRYH_AC_POWER_CONS: 0.95
+  response: 7DA0462106E13
+- expected_values:
+    CAMRYH_AC_POWER_CONS: 1
+  response: 7DA0462106E14
+- expected_values:
+    CAMRYH_AC_POWER_CONS: 1.2
+  response: 7DA0462106E18

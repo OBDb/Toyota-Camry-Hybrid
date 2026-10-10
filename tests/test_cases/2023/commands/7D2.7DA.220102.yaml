@@ -1,0 +1,22 @@
+command_id: 7D2.7DA.220102
+test_cases:
+- expected_values:
+    CAMRYH_KEY_CYCLE: 5417
+  response: |-
+    7DA100A620102152900
+    7DA21035F5C01000000
+- expected_values:
+    CAMRYH_KEY_CYCLE: 5417
+  response: |-
+    7DA100A620102152900
+    7DA21059AF101000000
+- expected_values:
+    CAMRYH_KEY_CYCLE: 5417
+  response: |-
+    7DA100A620102152900
+    7DA2106AA7E01000000
+- expected_values:
+    CAMRYH_KEY_CYCLE: 5417
+  response: |-
+    7DA100A620102152900
+    7DA2108A10601000000

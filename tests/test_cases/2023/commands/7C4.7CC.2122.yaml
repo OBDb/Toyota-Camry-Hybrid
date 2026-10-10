@@ -4,5 +4,5 @@ test_cases:
     CAMRYH_AAT_7C4: -1.25
   response: 7CC0361223F
 - expected_values:
-    CAMRYH_AAT_7C4: 35.15
-  response: 7CC036122A7
+    CAMRYH_AAT_7C4: 37.25
+  response: 7CC036122AD
