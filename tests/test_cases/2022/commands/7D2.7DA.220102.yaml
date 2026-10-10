@@ -1,0 +1,42 @@
+command_id: 7D2.7DA.220102
+test_cases:
+- expected_values:
+    CAMRYH_KEY_CYCLE: 13708
+  response: |-
+    7DA100A620102358C00
+    7DA2100CD8101000000
+- expected_values:
+    CAMRYH_KEY_CYCLE: 13708
+  response: |-
+    7DA100A620102358C00
+    7DA2101D22D01000000
+- expected_values:
+    CAMRYH_KEY_CYCLE: 13708
+  response: |-
+    7DA100A620102358C00
+    7DA21025DE301000000
+- expected_values:
+    CAMRYH_KEY_CYCLE: 13708
+  response: |-
+    7DA100A620102358C00
+    7DA2102D56001000000
+- expected_values:
+    CAMRYH_KEY_CYCLE: 13708
+  response: |-
+    7DA100A620102358C00
+    7DA2103569701000000
+- expected_values:
+    CAMRYH_KEY_CYCLE: 13708
+  response: |-
+    7DA100A620102358C00
+    7DA2103D22D01000000
+- expected_values:
+    CAMRYH_KEY_CYCLE: 13708
+  response: |-
+    7DA100A620102358C00
+    7DA21044BC601000000
+- expected_values:
+    CAMRYH_KEY_CYCLE: 13708
+  response: |-
+    7DA100A620102358C00
+    7DA2104C63501000000

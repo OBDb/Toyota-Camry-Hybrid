@@ -3,7 +3,7 @@
     { "hdr": "7E2", "type": "hybridControl" }
   ],
   "commands": [
-{ "hdr": "700", "rax": "708", "cmd": {"22": "0103"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "0103"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2024 },
   "signals": [
     {"id": "CAMRYH_ENG_ODO", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
@@ -449,7 +449,7 @@
   "signals": [
     {"id": "CAMRYH_ODO_V6", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "747", "rax": "74F", "cmd": {"22": "1814"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "747", "rax": "74F", "cmd": {"22": "1814"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2024 },
   "signals": [
     {"id": "CAMRYH_BAT_T_01", "path": "Battery", "fmt": {            "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 01"},
     {"id": "CAMRYH_BAT_T_02", "path": "Battery", "fmt": {"bix": 16,  "len": 16, "max": 205, "min": -50, "mul": 19531, "div": 5000000, "add": -50, "unit": "celsius" }, "name": "Battery temperature 02"},
@@ -904,7 +904,7 @@
   "signals": [
     {"id": "CAMRYH_ADJUSTED_AMBIENT_T", "path": "Climate", "fmt": { "len": 8, "max": 50.8, "min": -30.8, "mul": 81.6, "div": 255, "add": -30.8, "unit": "celsius" }, "name": "Adjusted ambient temperature"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "41"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "41"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2024 },
   "signals": [
     {"id": "CAMRYH_AIR_MIX_SERVO_TARG_D", "path": "Engine", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Air mix servo target pulse, driver"},
     {"id": "CAMRYH_AIR_MIX_SERVO_ACT_D",  "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Air mix servo, actual pulse, d"}
@@ -919,11 +919,11 @@
     {"id": "CAMRYH_AIR_INLET_DAMPER_TARGET_PULSE", "path": "Climate", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Air inlet damper target pulse"},
     {"id": "CAMRYH_AIR_INLET_DAMPER_ACTUAL_PULSE", "path": "Climate", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Air inlet damper actual pulse"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "49"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "49"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2024 },
   "signals": [
     {"id": "CAMRYH_COMP_SPD", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Compressor speed"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "4A"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "4A"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2024 },
   "signals": [
     {"id": "CAMRYH_COMP_TGT_SPD", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Compressor, target speed"}
   ]},
@@ -951,7 +951,7 @@
   "signals": [
     {"id": "CAMRYH_PARKING_BRAKE_2", "path": "Control", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Parking brake"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "0102"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "0102"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2024 },
   "signals": [
     {"id": "CAMRYH_KEY_CYCLE", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Key cycle"}
   ]},
@@ -959,11 +959,11 @@
   "signals": [
     {"id": "CAMRYH_ODO_V2_V2", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1002"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1002"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2024 },
   "signals": [
     {"id": "CAMRYH_AUX_BAT_V", "path": "Battery", "fmt": { "len": 16, "max": 79.95, "mul": 61, "div": 50000, "unit": "volts" }, "name": "Auxiliary battery voltage"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1039"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1039"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2024 },
   "signals": [
     {"id": "CAMRYH_FRONT_REAR_MOTOR_TQ", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 32.76, "min": -32.76, "div": 1000, "add": -32.768, "unit": "scalar" }, "name": "Front/rear motor torque ratio"}
   ]},
@@ -971,7 +971,7 @@
   "signals": [
     {"id": "CAMRYH_TRANSAXLE_OIL_T", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transaxle oil temperature"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1069"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1069"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2024 },
   "signals": [
     {"id": "CAMRYH_MOTOR_REGENERATIVE",       "path": "Engine", "fmt": {           "len": 16, "max": 4095, "min": -4096, "div": 8, "add": -4096, "unit": "kilowatts" }, "name": "Motor regenerative brake torque, requested"},
     {"id": "CAMRYH_MOTOR_REGENERATIVE_BREAK", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 4095, "min": -4096, "div": 8, "add": -4096, "unit": "kilowatts" }, "name": "Motor regenerative brake torque"}
@@ -986,7 +986,7 @@
     {"id": "CAMRYH_HVBAT_SOC_MAX", "path": "Battery", "fmt": {"bix": 8,  "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge, maximum"},
     {"id": "CAMRYH_HVBAT_SOC_MIN", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge, minimum"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "106E"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "106E"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2024 },
   "signals": [
     {"id": "CAMRYH_AC_POWER_CONS", "path": "Engine", "fmt": { "len": 8, "max": 12.75, "div": 20, "unit": "kilowatts" }, "name": "Air conditioning power consumption"}
   ]},
@@ -997,7 +997,7 @@
     {"id": "CAMRYH_RR_WHEEL_VSS", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"},
     {"id": "CAMRYH_RL_WHEEL_VSS", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "107E"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "107E"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2024 },
   "signals": [
     {"id": "CAMRYH_12V_BAT_V_BEFORE_SMR", "path": "Battery", "fmt": { "len": 8, "max": 11.56, "mul": 61, "div": 50000, "add": 11.25, "unit": "volts" }, "name": "12V battery voltage before system main relay"}
   ]},
@@ -1011,11 +1011,11 @@
     {"id": "CAMRYH_RM_TQ_REQ", "path": "Engine", "fmt": {           "len": 16, "max": 32767, "min": -32768,           "add": -32768, "unit": "rpm"          }, "name": "Rear motor speed"},
     {"id": "CAMRYH_RM_TQ",     "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 4095,  "min": -4096,  "div": 8, "add": -4096,  "unit": "newtonMeters" }, "name": "Rear motor torque"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10A4"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10A4"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2024 },
   "signals": [
     {"id": "CAMRYH_GEN_INVERTER_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Generator inverter temperature"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10A5"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10A5"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2024 },
   "signals": [
     {"id": "CAMRYH_MOTOR_INVERTER_T",     "path": "Engine", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter temperature"},
     {"id": "CAMRYH_MOTOR_INVERTER_T_ON",  "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter temperature after ignition on"},
@@ -1026,7 +1026,7 @@
     {"id": "CAMRYH_RM_INVRT_COOL_T", "path": "Engine", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Rear motor inverter, coolant temperature"},
     {"id": "CAMRYH_M_INVRT_MAX_T",   "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter, maximum temperature"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10A7"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10A7"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2024 },
   "signals": [
     {"id": "CAMRYH_BOOSTING_CONV_T_HI", "path": "Transmission", "fmt": {          "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Boosting converter temperature, upper"},
     {"id": "CAMRYH_BOOSTING_CONV_T_LO", "path": "Transmission", "fmt": {"bix": 8, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Boosting converter temperature, lower"}
@@ -1037,7 +1037,7 @@
     {"id": "CAMRYH_GEN_INVERTER_T_AFTER_ON", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Generator inverter temperature after ignition on"},
     {"id": "CAMRYH_MAX_GEN_INVERTER_T",      "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Maximum generator inverter temperature"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10B0"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10B0"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2024 },
   "signals": [
     {"id": "CAMRYH_VL_V_BEFORE_BOOSTING", "path": "Battery", "fmt": {           "len": 16, "max": 32767, "div": 2, "unit": "volts" }, "name": "Boost converter voltage before boosting"},
     {"id": "CAMRYH_VH_V_AFTER_BOOSTING",  "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 32767, "div": 2, "unit": "volts" }, "name": "Boost converter voltage after boosting"}
@@ -1109,7 +1109,7 @@
   "signals": [
     {"id": "CAMRYH_VSS_V2", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1F42"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1F42"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2024 },
   "signals": [
     {"id": "CAMRYH_12V_BAT_V_SMOOTHED", "path": "Battery", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "volts" }, "name": "12V battery voltage smoothed"}
   ]},
