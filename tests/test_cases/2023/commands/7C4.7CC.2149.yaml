@@ -1,14 +1,14 @@
 command_id: 7C4.7CC.2149
 test_cases:
 - expected_values:
-    CAMRYH_COMP_SPD: 2910
-  response: 7CC0461490B5E
+    CAMRYH_COMP_SPD: 1630
+  response: 7CC046149065E
 - expected_values:
-    CAMRYH_COMP_SPD: 3272
-  response: 7CC0461490CC8
+    CAMRYH_COMP_SPD: 1788
+  response: 7CC04614906FC
 - expected_values:
-    CAMRYH_COMP_SPD: 3508
-  response: 7CC0461490DB4
+    CAMRYH_COMP_SPD: 1794
+  response: 7CC0461490702
 - expected_values:
-    CAMRYH_COMP_SPD: 3968
-  response: 7CC0461490F80
+    CAMRYH_COMP_SPD: 4421
+  response: 7CC0461491145

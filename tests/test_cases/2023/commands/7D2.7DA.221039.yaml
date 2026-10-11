@@ -1,8 +1,11 @@
 command_id: 7D2.7DA.221039
 test_cases:
 - expected_values:
-    CAMRYH_FRONT_REAR_MOTOR_TQ: -28.938
-  response: 7DA0762103923330EF6
+    CAMRYH_FRONT_REAR_MOTOR_TQ: -29.579
+  response: 7DA0762103920000C75
+- expected_values:
+    CAMRYH_FRONT_REAR_MOTOR_TQ: -29.184
+  response: 7DA0762103923330E00
 - expected_values:
     CAMRYH_FRONT_REAR_MOTOR_TQ: -28.937
   response: 7DA0762103923330EF7
