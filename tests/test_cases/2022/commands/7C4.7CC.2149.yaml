@@ -3,3 +3,24 @@ test_cases:
 - expected_values:
     CAMRYH_COMP_SPD: 0
   response: 7CC0461490000
+- expected_values:
+    CAMRYH_COMP_SPD: 2277
+  response: 7CC04614908E5
+- expected_values:
+    CAMRYH_COMP_SPD: 2332
+  response: 7CC046149091C
+- expected_values:
+    CAMRYH_COMP_SPD: 2363
+  response: 7CC046149093B
+- expected_values:
+    CAMRYH_COMP_SPD: 2533
+  response: 7CC04614909E5
+- expected_values:
+    CAMRYH_COMP_SPD: 2860
+  response: 7CC0461490B2C
+- expected_values:
+    CAMRYH_COMP_SPD: 3068
+  response: 7CC0461490BFC
+- expected_values:
+    CAMRYH_COMP_SPD: 3277
+  response: 7CC0461490CCD

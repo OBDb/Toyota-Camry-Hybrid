@@ -7,8 +7,26 @@ test_cases:
     CAMRYH_GEN_INVERTER_T: 31
   response: 7DA066210A4474A50
 - expected_values:
+    CAMRYH_GEN_INVERTER_T: 31
+  response: 7DA066210A4474E4F
+- expected_values:
     CAMRYH_GEN_INVERTER_T: 32
   response: 7DA066210A4484A50
 - expected_values:
+    CAMRYH_GEN_INVERTER_T: 32
+  response: 7DA066210A4484E4F
+- expected_values:
     CAMRYH_GEN_INVERTER_T: 33
   response: 7DA066210A4494A50
+- expected_values:
+    CAMRYH_GEN_INVERTER_T: 33
+  response: 7DA066210A4494E4F
+- expected_values:
+    CAMRYH_GEN_INVERTER_T: 34
+  response: 7DA066210A44A4E4F
+- expected_values:
+    CAMRYH_GEN_INVERTER_T: 34
+  response: 7DA066210A44A4E54
+- expected_values:
+    CAMRYH_GEN_INVERTER_T: 37
+  response: 7DA066210A44D4E54
