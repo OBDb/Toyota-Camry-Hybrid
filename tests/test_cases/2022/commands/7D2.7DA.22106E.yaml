@@ -3,3 +3,18 @@ test_cases:
 - expected_values:
     CAMRYH_AC_POWER_CONS: 0
   response: 7DA0462106E00
+- expected_values:
+    CAMRYH_AC_POWER_CONS: 0.55
+  response: 7DA0462106E0B
+- expected_values:
+    CAMRYH_AC_POWER_CONS: 0.75
+  response: 7DA0462106E0F
+- expected_values:
+    CAMRYH_AC_POWER_CONS: 0.8
+  response: 7DA0462106E10
+- expected_values:
+    CAMRYH_AC_POWER_CONS: 0.85
+  response: 7DA0462106E11
+- expected_values:
+    CAMRYH_AC_POWER_CONS: 0.95
+  response: 7DA0462106E13

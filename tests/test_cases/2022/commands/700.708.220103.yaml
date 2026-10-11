@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     CAMRYH_ENG_ODO: 80516
   response: 7080762010301013A84
+- expected_values:
+    CAMRYH_ENG_ODO: 80517
+  response: 7080762010301013A85
+- expected_values:
+    CAMRYH_ENG_ODO: 80518
+  response: 7080762010301013A86
