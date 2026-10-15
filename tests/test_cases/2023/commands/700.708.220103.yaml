@@ -4,5 +4,8 @@ test_cases:
     CAMRYH_ENG_ODO: 88760
   response: 7080762010302015AB8
 - expected_values:
-    CAMRYH_ENG_ODO: 88823
-  response: 7080762010302015AF7
+    CAMRYH_ENG_ODO: 88831
+  response: 7080762010302015AFF
+- expected_values:
+    CAMRYH_ENG_ODO: 88832
+  response: 7080762010302015B00
