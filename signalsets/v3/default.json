@@ -303,7 +303,7 @@
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1621"}, "freq": 1,
   "signals": [
-    {"id": "CAMRYH_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
+    {"id": "CAMRYH_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear", "suggestedMetric": "gear"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1622"}, "freq": 1,
   "signals": [
@@ -709,7 +709,7 @@
   ]},
 { "hdr": "7B0", "rax": "7B8", "cmd": {"21": "47"}, "freq": 0.25, "dbgfilter": { "years": [2008, 2009, 2010, 2011, 2014, 2015, 2016, 2017, 2020], "from": 2024 },
   "signals": [
-    {"id": "CAMRYH_LAT_G",          "path": "Orientation", "fmt": {           "len": 8,  "max": 2.54,   "min": -2.56,   "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Lateral g"},
+    {"id": "CAMRYH_LAT_G",          "path": "Orientation", "fmt": {           "len": 8,  "max": 2.54,   "min": -2.56,   "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Lateral g",              "suggestedMetric": "lateralAcceleration"},
     {"id": "CAMRYH_LNG_G",          "path": "Orientation", "fmt": {"bix": 8,  "len": 8,  "max": 2.54,   "min": -2.56,   "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Forward and rearward g"},
     {"id": "CAMRYH_YAW",            "path": "Orientation", "fmt": {"bix": 16, "len": 8,  "max": 127,    "min": -128,               "add": -128,                  "unit": "scalar"  }, "name": "Yaw rate value"},
     {"id": "CAMRYH_STEERING_ANGLE", "path": "Control",     "fmt": {"bix": 24, "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "add": -3276.8,               "unit": "degrees" }, "name": "Steering angle value"}
@@ -1139,8 +1139,8 @@
     {"id": "CAMRYH_CALCULATED_LOAD_7E0",      "path": "Engine",   "fmt": {            "len": 8,  "max": 100,                  "mul": 100, "div": 255,               "unit": "percent"           }, "name": "Calculated load"},
     {"id": "CAMRYH_VEHICLE_LOAD",             "path": "Engine",   "fmt": {"bix": 8,   "len": 16, "max": 100,                  "mul": 100, "div": 65535,             "unit": "percent"           }, "name": "Vehicle load"},
     {"id": "CAMRYH_MAF",                      "path": "Engine",   "fmt": {"bix": 24,  "len": 16, "max": 655.35,                           "div": 100,               "unit": "gramsPerSecond"    }, "name": "Mass air flow",                     "suggestedMetric": "massAirFlow"},
-    {"id": "CAMRYH_MAP",                      "path": "Engine",   "fmt": {"bix": 40,  "len": 8,  "max": 255,                                                        "unit": "kilopascal"        }, "name": "Manifold absolute pressure"},
-    {"id": "CAMRYH_INTAKE_AIR",               "path": "Engine",   "fmt": {"bix": 48,  "len": 8,  "max": 215,      "min": -40,                           "add": -40, "unit": "celsius"           }, "name": "Intake air"},
+    {"id": "CAMRYH_MAP",                      "path": "Engine",   "fmt": {"bix": 40,  "len": 8,  "max": 255,                                                        "unit": "kilopascal"        }, "name": "Manifold absolute pressure",        "suggestedMetric": "absoluteBoostPressure"},
+    {"id": "CAMRYH_INTAKE_AIR",               "path": "Engine",   "fmt": {"bix": 48,  "len": 8,  "max": 215,      "min": -40,                           "add": -40, "unit": "celsius"           }, "name": "Intake air",                        "suggestedMetric": "intakeAirTemperature"},
     {"id": "CAMRYH_ATMOSPHERE_PRESSURE",      "path": "Engine",   "fmt": {"bix": 56,  "len": 8,  "max": 255,                                                        "unit": "kilopascal"        }, "name": "Atmosphere pressure"},
     {"id": "CAMRYH_COOLANT_TEMP",             "path": "Engine",   "fmt": {"bix": 64,  "len": 8,  "max": 215,      "min": -40,                           "add": -40, "unit": "celsius"           }, "name": "Coolant temp"},
     {"id": "CAMRYH_ENGINE_SPEED",             "path": "Movement", "fmt": {"bix": 72,  "len": 16, "max": 16383.75,                         "div": 4,                 "unit": "rpm"               }, "name": "Engine speed"},
@@ -1176,7 +1176,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "06"}, "freq": 1, "dbgfilter": { "years": [2008, 2009, 2010, 2011], "from": 2014 },
   "signals": [
-    {"id": "CAMRYH_MIL",                            "path": "DTCs", "fmt": {           "len": 1,  "max": 1,     "unit": "offon"      }, "name": "MIL"},
+    {"id": "CAMRYH_MIL",                            "path": "DTCs", "fmt": {           "len": 1,  "max": 1,     "unit": "offon"      }, "name": "MIL",                            "suggestedMetric": "checkEngineLightOn"},
     {"id": "CAMRYH_NUMBER_OF_EMISSION_DTC",         "path": "DTCs", "fmt": {"bix": 1,  "len": 7,  "max": 127,   "unit": "scalar"     }, "name": "Number of emission DTC"},
     {"id": "CAMRYH_COMPLETE_PARTS_MONITOR_AVAIL",   "path": "DTCs", "fmt": {"bix": 13, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "Complete parts monitor_avail"},
     {"id": "CAMRYH_FUEL_SYSTEM_MONITOR_AVAIL",      "path": "DTCs", "fmt": {"bix": 14, "len": 1,  "max": 1,     "unit": "offon"      }, "name": "Fuel system monitor_avail"},
@@ -1214,7 +1214,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "0F"}, "freq": 1,
   "signals": [
-    {"id": "CAMRYH_IAT_21", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake air temperature"}
+    {"id": "CAMRYH_IAT_21", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake air temperature", "suggestedMetric": "intakeAirTemperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "10"}, "freq": 1,
   "signals": [
@@ -1477,7 +1477,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "D3"}, "freq": 0.25,
   "signals": [
-    {"id": "CAMRYH_CRUISE_CTRL_SPD", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise control speed"},
+    {"id": "CAMRYH_CRUISE_CTRL_SPD", "path": "Movement", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise control speed", "suggestedMetric": "cruiseSetSpeed"},
     {"id": "CAMRYH_CRUISE_CTRL_ON",  "path": "Engine",   "fmt": {"bix": 25, "len": 1, "max": 1,   "unit": "offon"             }, "name": "Cruise control on"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "D9"}, "freq": 5,
@@ -1550,7 +1550,7 @@
   "signals": [
     {"id": "CAMRYH_CALC_LOAD_7E2",      "path": "Engine",   "fmt": {            "len": 8,  "max": 100,               "mul": 20, "div": 51,               "unit": "percent"           }, "name": "Calculated load"},
     {"id": "CAMRYH_MANIFOLD_AIR_P_7E2", "path": "Engine",   "fmt": {"bix": 8,   "len": 8,  "max": 255,                                                   "unit": "kilopascal"        }, "name": "Manifold air pressure"},
-    {"id": "CAMRYH_IAT_7E2",            "path": "Engine",   "fmt": {"bix": 16,  "len": 8,  "max": 215,   "min": -40,                         "add": -40, "unit": "celsius"           }, "name": "Intake air temperature"},
+    {"id": "CAMRYH_IAT_7E2",            "path": "Engine",   "fmt": {"bix": 16,  "len": 8,  "max": 215,   "min": -40,                         "add": -40, "unit": "celsius"           }, "name": "Intake air temperature",             "suggestedMetric": "intakeAirTemperature"},
     {"id": "CAMRYH_AAT_7E2",            "path": "Engine",   "fmt": {"bix": 24,  "len": 8,  "max": 215,   "min": -40,                         "add": -40, "unit": "celsius"           }, "name": "Ambient temperature"},
     {"id": "CAMRYH_ATMOSPHERE_P_7E2",   "path": "Engine",   "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                   "unit": "kilopascal"        }, "name": "Atmosphere pressure"},
     {"id": "CAMRYH_ECT_7E2",            "path": "Engine",   "fmt": {"bix": 40,  "len": 8,  "max": 215,   "min": -40,                         "add": -40, "unit": "celsius"           }, "name": "Engine coolant temperature"},
@@ -1569,7 +1569,7 @@
 { "hdr": "7E2", "rax": "7EA", "dbg": true, "cmd": {"21": "21"}, "freq": 1, "filter": { "from": 2012, "to": 2017 },
   "signals": [
     {"id": "CAMRYH_CCS_VEH_SPD",      "path": "Engine", "fmt": {           "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise control vehicle speed"},
-    {"id": "CAMRYH_CCS_MEM_VEH_SPD",  "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise control set speed"},
+    {"id": "CAMRYH_CCS_MEM_VEH_SPD",  "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise control set speed",            "suggestedMetric": "cruiseSetSpeed"},
     {"id": "CAMRYH_CRUISE_OPERATION", "path": "Engine", "fmt": {"bix": 24, "len": 1, "max": 1,   "unit": "offon"             }, "name": "Cruise operation status"},
     {"id": "CAMRYH_CRUISE_CTRL",      "path": "Engine", "fmt": {"bix": 25, "len": 1, "max": 1,   "unit": "offon"             }, "name": "Cruise control"},
     {"id": "CAMRYH_RES_ACC_SWITCH",   "path": "Engine", "fmt": {"bix": 35, "len": 1, "max": 1,   "unit": "offon"             }, "name": "Cruise resume and accelerate switch"},
