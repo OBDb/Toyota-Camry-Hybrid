@@ -1,4 +1,4 @@
-command_id: 7C0.7C8.2129
+command_id: 7C0.7C8.2129|f=2028-;-2017
 test_cases:
 - expected_values:
     CAMRYH_FUEL_INPUT: 113
