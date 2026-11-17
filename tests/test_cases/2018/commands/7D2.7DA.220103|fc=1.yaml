@@ -1,8 +1,10 @@
 command_id: 7D2.7DA.220103|fc=1
 test_cases:
 - expected_values:
-    CAMRYH_ODO_V2_V2: 85898
+    CAMRYH_ODO_V2_V2_RAW: 85898
+    CAMRYH_ODO_V2_V2_UNIT: MI
   response: 7DA0762010302014F8A
 - expected_values:
-    CAMRYH_ODO_V2_V2: 86001
+    CAMRYH_ODO_V2_V2_RAW: 86001
+    CAMRYH_ODO_V2_V2_UNIT: MI
   response: 7DA0762010302014FF1
