@@ -1,4 +1,4 @@
-command_id: 7C0.7C8.2123
+command_id: 7C0.7C8.2123|f=2028-;-2017
 test_cases:
 - expected_values:
     CAMRYH_ECT_7C0: 69
