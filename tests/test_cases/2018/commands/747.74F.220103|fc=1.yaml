@@ -1,8 +1,10 @@
 command_id: 747.74F.220103|fc=1
 test_cases:
 - expected_values:
-    CAMRYH_ODO_V6: 85898
+    CAMRYH_ODO_V6_RAW: 85898
+    CAMRYH_ODO_V6_UNIT: MI
   response: 74F0762010302014F8A
 - expected_values:
-    CAMRYH_ODO_V6: 86001
+    CAMRYH_ODO_V6_RAW: 86001
+    CAMRYH_ODO_V6_UNIT: MI
   response: 74F0762010302014FF1
