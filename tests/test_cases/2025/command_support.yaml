@@ -3,7 +3,9 @@ supported_commands_by_ecu:
   "7DF":
   - 7DF.0103
   - 7DF.0104
+  - 7DF.0105
   - 7DF.0106
+  - 7DF.010C
   - 7DF.0110
   - 7DF.0111
   - 7DF.011C
@@ -424,6 +426,7 @@ unsupported_commands_by_ecu:
   - 7E0.0103:FUELSYS1,FUELSYS2
   - 7E0.0104:LOAD_PCT
   - 7E0.0105:ECT
+  - 7E0.010C:RPM
   - 7E0.0110:MAF
   - 7E0.011C:OBDSUP
   - 7E0.011F:RUNTM
@@ -496,6 +499,7 @@ unsupported_commands_by_ecu:
   "7E2":
   - 7E2.7EA.0104
   - 7E2.7EA.0105
+  - 7E2.7EA.010C
   - 7E2.7EA.0111
   - 7E2.7EA.0142
   - 7E2.7EA.0146
@@ -503,6 +507,7 @@ unsupported_commands_by_ecu:
   - 7E2.7EA.019A
   "7E3":
   - 7E3.7EB.0105
+  - 7E3.7EB.010C
   - 7E3.7EB.0111
   - 7E3.7EB.0131
   - 7E3.7EB.0142
@@ -513,6 +518,7 @@ unsupported_commands_by_ecu:
   "7E6":
   - 7E6.7EE.0104
   - 7E6.7EE.0105
+  - 7E6.7EE.010C
   - 7E6.7EE.0111
   - 7E6.7EE.0131
   - 7E6.7EE.0142
